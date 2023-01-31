@@ -17,7 +17,7 @@ const NavBar = () => {
           </ul>
         </div>
         <div>
-          <button>
+          <button className="nav-list-button">
             <svg
               width="24"
               height="24"
