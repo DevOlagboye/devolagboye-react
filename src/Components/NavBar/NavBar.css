@@ -42,3 +42,9 @@
 .svg {
     color: #a1a09a;
 }
+
+.nav-links {
+    padding: 7px 15px 7px 15px;
+    border-radius: 16px;
+    text-decoration: none;
+}

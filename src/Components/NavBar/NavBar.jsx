@@ -1,5 +1,6 @@
 import React from "react";
 import myProfile from "../../assets/images/profile-pic.JPG";
+import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 
 const NavBar = () => {
@@ -11,7 +12,18 @@ const NavBar = () => {
         </div>
         <div className="nav-list">
           <ul>
-            <li>Home</li>
+            <li>
+              <NavLink
+                to="/"
+                className="nav-links"
+                style={({ isActive }) => ({
+                  background: isActive ? "#282826" : "#FFF",
+                  color: "#FFF",
+                })}
+              >
+                Home
+              </NavLink>
+            </li>
             <li>About</li>
             <li>Contact</li>
           </ul>
