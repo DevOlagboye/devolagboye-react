@@ -34,6 +34,11 @@
     border: none;
 }
 
+.nav-list ul li:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
 .svg {
     color: #a1a09a;
 }
