@@ -18,8 +18,7 @@ const NavBar = () => {
                 className="nav-links"
                 style={({ isActive }) => ({
                   background: isActive ? "#282826" : "transparent",
-                  color: "#FFF",
-                  padding: "7px 15px 7px 15px",
+                  color: isActive ? "#FFF" : "#a1a09a",
                 })}
               >
                 Home
@@ -31,8 +30,7 @@ const NavBar = () => {
                 className="nav-links"
                 style={({ isActive }) => ({
                   background: isActive ? "#282826" : "transparent",
-                  color: "#FFF",
-                  padding: "7px 15px 7px 15px",
+                  color: isActive ? "#FFF" : "#a1a09a",
                 })}
               >
                 About
@@ -44,8 +42,7 @@ const NavBar = () => {
                 className="nav-links"
                 style={({ isActive }) => ({
                   background: isActive ? "#282826" : "transparent",
-                  color: "#FFF",
-                  padding: "7px 15px 7px 15px",
+                  color: isActive ? "#FFF" : "#a1a09a",
                 })}
               >
                 Contact

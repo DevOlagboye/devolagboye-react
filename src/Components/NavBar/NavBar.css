@@ -26,7 +26,6 @@
 
 .nav-list ul li {
     list-style: none;
-    color: #a1a09a;
 }
 
 .nav-list-button {
@@ -46,4 +45,6 @@
 .nav-links {
     border-radius: 16px;
     text-decoration: none;
+    color: #a1a09a;
+    padding: 7px 15px 7px 15px;
 }
