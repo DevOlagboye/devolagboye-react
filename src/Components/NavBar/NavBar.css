@@ -3,3 +3,9 @@
     height: 70px;
     background: #151514;
 }
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
