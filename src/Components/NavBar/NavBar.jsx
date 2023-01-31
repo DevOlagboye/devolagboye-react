@@ -17,14 +17,27 @@ const NavBar = () => {
                 to="/"
                 className="nav-links"
                 style={({ isActive }) => ({
-                  background: isActive ? "#282826" : "#FFF",
+                  background: isActive ? "#282826" : "transparent",
                   color: "#FFF",
+                  padding: "7px 15px 7px 15px",
                 })}
               >
                 Home
               </NavLink>
             </li>
-            <li>About</li>
+            <li>
+              <NavLink
+                to="/about"
+                className="nav-links"
+                style={({ isActive }) => ({
+                  background: isActive ? "#282826" : "transparent",
+                  color: "#FFF",
+                  padding: "7px 15px 7px 15px",
+                })}
+              >
+                About
+              </NavLink>
+            </li>
             <li>Contact</li>
           </ul>
         </div>
