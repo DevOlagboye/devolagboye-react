@@ -38,7 +38,19 @@ const NavBar = () => {
                 About
               </NavLink>
             </li>
-            <li>Contact</li>
+            <li>
+              <NavLink
+                to="/contact"
+                className="nav-links"
+                style={({ isActive }) => ({
+                  background: isActive ? "#282826" : "transparent",
+                  color: "#FFF",
+                  padding: "7px 15px 7px 15px",
+                })}
+              >
+                Contact
+              </NavLink>
+            </li>
           </ul>
         </div>
         <div>
