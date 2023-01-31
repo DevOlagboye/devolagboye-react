@@ -1,0 +1,50 @@
+.nav-bar-container {
+    width: 100%;
+    height: 60px;
+    background: #151514;
+    position: fixed;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.nav-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin-top: 6px;
+}
+
+.nav-list ul {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-list ul li {
+    list-style: none;
+}
+
+.nav-list-button {
+    background: none;
+    border: none;
+}
+
+.nav-list ul li:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.svg {
+    color: #a1a09a;
+}
+
+.nav-links {
+    border-radius: 16px;
+    text-decoration: none;
+    color: #a1a09a;
+    padding: 7px 15px 7px 15px;
+}
