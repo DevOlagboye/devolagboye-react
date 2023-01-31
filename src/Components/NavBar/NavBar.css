@@ -14,5 +14,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20%;
+    gap: 5%;
+}
+
+.nav-list ul {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-list ul li {
+    list-style: none;
+    color: #fff;
 }
