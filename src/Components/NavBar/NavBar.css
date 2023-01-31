@@ -1,6 +1,6 @@
 .nav-bar-container {
     width: 100%;
-    height: 70px;
+    height: 60px;
     background: #151514;
     position: fixed;
 }
@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     gap: 5%;
+    margin-top: 6px;
 }
 
 .nav-list ul {
@@ -25,5 +26,14 @@
 
 .nav-list ul li {
     list-style: none;
-    color: #fff;
+    color: #a1a09a;
+}
+
+.nav-list-button {
+    background: none;
+    border: none;
+}
+
+.svg {
+    color: #a1a09a;
 }
