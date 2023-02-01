@@ -48,3 +48,20 @@
     color: #a1a09a;
     padding: 7px 15px 7px 15px;
 }
+
+.ant-dropdown {
+    width: 120px;
+}
+
+.ant-dropdown-menu {
+    background: #151514 !important;
+}
+
+.ant-dropdown-menu .ant-dropdown-menu-title-content {
+    color: #fff !important;
+}
+
+.ant-dropdown-menu .ant-dropdown-menu-item-selected {
+    background-color: #282826 !important;
+    color: #fff !important;
+}
