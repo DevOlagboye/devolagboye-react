@@ -1,6 +1,7 @@
 import React from "react";
 import myProfile from "../../assets/images/profile-pic.JPG";
 import { NavLink } from "react-router-dom";
+
 import "./NavBar.css";
 
 const NavBar = () => {
