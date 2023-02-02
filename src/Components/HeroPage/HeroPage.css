@@ -3,6 +3,11 @@
     padding: 50px;
 }
 
+.main-text {
+    display: flex;
+    flex-direction: column;
+}
+
 .main-text h6 {
     color: #fff;
 }
