@@ -3,6 +3,7 @@
     height: 60px;
     background: #151514;
     position: fixed;
+    top: 0;
 }
 
 .profile-pic {
