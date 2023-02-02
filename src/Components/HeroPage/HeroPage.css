@@ -1,3 +1,17 @@
 .heropage-container {
-    margin-top: 70px;
+    margin-top: 90px;
+    padding: 50px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text h6 {
+    color: #fff;
+}
+
+.main-text p {
+    color: #a09f99;
 }
