@@ -3,6 +3,7 @@
     height: 60px;
     background: #151514;
     position: fixed;
+    top: 0;
 }
 
 .profile-pic {
@@ -61,7 +62,13 @@
     color: #fff !important;
 }
 
+.ant-dropdown-menu .ant-dropdown-menu-item {
+    text-align: center !important;
+}
+
 .ant-dropdown-menu .ant-dropdown-menu-item-selected {
     background-color: #282826 !important;
     color: #fff !important;
+    padding: 0px 5px 0px 5px !important;
+    border-radius: 15px !important;
 }
