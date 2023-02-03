@@ -7,8 +7,8 @@ const HeroPage = () => {
       <div className="main-text">
         <h6>Hi there, I am Akingbola Olagboye</h6>
         <p>
-          A Frontend Engineer, that has passion & love for design and its
-          aesthetics
+          A Frontend Engineer, that has passions & love for design and its
+          aesthetics.
         </p>
       </div>
     </div>
