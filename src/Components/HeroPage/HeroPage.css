@@ -9,6 +9,19 @@
 }
 
 .main-text h6 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .main-text {
+        margin-left: 370px;
+    }
+}
+
+.main-text h6 {
     color: #fff;
 }
 
