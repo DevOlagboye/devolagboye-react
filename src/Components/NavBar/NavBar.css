@@ -19,12 +19,6 @@
     margin-top: 6px;
 }
 
-@media (min-width: 768px) {
-    .nav-details {
-        gap: 5%;
-    }
-}
-
 .nav-list ul {
     display: flex;
     gap: 50px;
@@ -76,4 +70,10 @@
     color: #fff !important;
     padding: 0px 5px 0px 5px !important;
     border-radius: 15px !important;
+}
+
+@media (min-width: 768px) {
+    .nav-details {
+        gap: 8%;
+    }
 }
