@@ -16,7 +16,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5%;
     margin-top: 6px;
 }
 
@@ -47,7 +46,6 @@
     border-radius: 16px;
     text-decoration: none;
     color: #a1a09a;
-    padding: 7px 15px 7px 15px;
 }
 
 .ant-dropdown {
@@ -71,4 +69,26 @@
     color: #fff !important;
     padding: 0px 5px 0px 5px !important;
     border-radius: 15px !important;
+}
+
+@media (min-width: 768px) {
+    .nav-details {
+        gap: 8%;
+    }
+    .nav-links {
+        padding: 7px 15px 7px 15px;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav-links {
+        padding: 7px 15px 7px 15px;
+    }
+    .nav-list ul {
+        gap: 13px;
+    }
+    .profile-pic {
+        width: 30px;
+        height: 30px;
+    }
 }
