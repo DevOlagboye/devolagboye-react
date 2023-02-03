@@ -79,3 +79,16 @@
         padding: 7px 15px 7px 15px;
     }
 }
+
+@media (max-width: 600px) {
+    .nav-links {
+        padding: 7px 15px 7px 15px;
+    }
+    .nav-list ul {
+        gap: 13px;
+    }
+    .profile-pic {
+        width: 30px;
+        height: 30px;
+    }
+}
