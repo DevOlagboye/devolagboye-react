@@ -46,7 +46,6 @@
     border-radius: 16px;
     text-decoration: none;
     color: #a1a09a;
-    padding: 7px 15px 7px 15px;
 }
 
 .ant-dropdown {
@@ -75,5 +74,8 @@
 @media (min-width: 768px) {
     .nav-details {
         gap: 8%;
+    }
+    .nav-links {
+        padding: 7px 15px 7px 15px;
     }
 }
