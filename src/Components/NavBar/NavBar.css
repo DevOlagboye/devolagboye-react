@@ -16,8 +16,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5%;
     margin-top: 6px;
+}
+
+@media (min-width: 768px) {
+    .nav-details {
+        gap: 5%;
+    }
 }
 
 .nav-list ul {
