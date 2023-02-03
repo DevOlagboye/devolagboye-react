@@ -1,0 +1,17 @@
+.projects-container {
+    padding: 50px;
+}
+
+.projects-container .text {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-top: -40px;
+}
+
+@media (min-width: 768px) {
+    .projects-container .text {
+        margin-left: 330px;
+    }
+}
