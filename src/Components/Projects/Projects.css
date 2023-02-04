@@ -10,6 +10,13 @@
     margin-top: -40px;
 }
 
+.project-details {
+    display: flex;
+    gap: 30px;
+}
+.year {
+    color: #a09f99;
+}
 @media (min-width: 768px) {
     .projects-container {
         margin-left: 330px;
