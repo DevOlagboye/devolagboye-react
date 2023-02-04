@@ -42,6 +42,10 @@
     color: #a09f99;
 }
 
+.project-main-details {
+    margin-bottom: 20px;
+}
+
 .case-study-link {
     color: #fff;
     text-underline-offset: 5px;
