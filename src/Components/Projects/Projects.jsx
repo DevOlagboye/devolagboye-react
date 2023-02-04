@@ -26,6 +26,7 @@ const Projects = () => {
             <img src={nftLandPage} alt="NFT Land page"  className="project-image"/>
           </a>
         </div>
+        
       </div>
     </div>
   );
