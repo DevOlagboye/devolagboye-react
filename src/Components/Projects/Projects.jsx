@@ -8,6 +8,14 @@ const Projects = () => {
         <h6 className="text">Selected Projects</h6>
       </div>
       <div className="project-details">
+           <div className="year">
+            <p>2023</p>
+            </div> 
+            <div className="project-main-details">
+                <h5>Apollo NFT MarketPlace</h5>
+                <p>Apollo NFT MarketPlace is a project I designed after my interest in web3 and its ecosystem.</p>
+                <a href="##">Read case study</a>
+            </div>
 
       </div>
     </div>
