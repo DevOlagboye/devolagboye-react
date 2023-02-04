@@ -32,6 +32,10 @@
     color: #a09f99;
 }
 
+.case-study-link {
+    color: #fff;
+}
+
 @media (min-width: 768px) {
     .projects-container {
         margin-left: 330px;
