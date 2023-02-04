@@ -14,9 +14,18 @@
     display: flex;
     gap: 30px;
 }
+
 .year {
     color: #a09f99;
 }
+
+.project-name {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
 @media (min-width: 768px) {
     .projects-container {
         margin-left: 330px;
