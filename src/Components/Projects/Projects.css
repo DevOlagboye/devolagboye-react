@@ -16,6 +16,15 @@
     gap: 50px;
 }
 
+.project-image {
+    margin-top: 30px;
+    width: 300px;
+}
+
+.image-link {
+    display: block;
+}
+
 .year {
     color: #a09f99;
 }

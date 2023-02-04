@@ -22,7 +22,7 @@ const Projects = () => {
             I got the inspiration for this from the figma community.
           </p>
           <a href="##" className="case-study-link">Read case study</a>
-          <a href="https://nft-marketplace-landing-page.netlify.app/">
+          <a className="image-link" href="https://nft-marketplace-landing-page.netlify.app/">
             <img src={nftLandPage} alt="NFT Land page"  className="project-image"/>
           </a>
         </div>
