@@ -11,7 +11,7 @@
 }
 
 @media (min-width: 768px) {
-    .projects-container .text {
+    .projects-container {
         margin-left: 330px;
     }
 }

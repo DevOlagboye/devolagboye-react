@@ -7,6 +7,9 @@ const Projects = () => {
       <div>
         <h6 className="text">Selected Projects</h6>
       </div>
+      <div className="project-details">
+
+      </div>
     </div>
   );
 };
