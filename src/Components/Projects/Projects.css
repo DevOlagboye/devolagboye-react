@@ -6,12 +6,49 @@
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 16px;
+    margin-bottom: 20px;
     color: #fff;
-    margin-top: -40px;
+    margin-top: 10px;
+}
+
+.project-details {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+    color: #a09f99;
+}
+
+.project-image {
+    margin-top: 30px;
+    width: 460px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-link {
+    display: block;
+}
+
+.year {
+    color: #a09f99;
+}
+
+.project-name {
+    color: #fff;
+    font-size: 16.5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.case-study-link {
+    color: #fff;
+    text-underline-offset: 5px;
 }
 
 @media (min-width: 768px) {
-    .projects-container .text {
+    .projects-container {
         margin-left: 330px;
     }
 }

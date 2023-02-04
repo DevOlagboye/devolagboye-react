@@ -16,12 +16,13 @@
 }
 
 .main-text p {
-    margin-top: -30px;
+    margin-top: 30px;
 }
 
 @media (min-width: 768px) {
     .main-text {
         margin-left: 330px;
+        width: 500px;
     }
 }
 

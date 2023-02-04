@@ -8,7 +8,7 @@ const HeroPage = () => {
         <h6>Hi there, I am Akingbola Olagboye</h6>
         <p>
           A Frontend Engineer, that has passions & love for design and its
-          aesthetics.
+          aesthetics, recently got interested in exploring open source and web3.
         </p>
       </div>
     </div>
