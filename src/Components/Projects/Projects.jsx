@@ -17,6 +17,9 @@ const Projects = () => {
             Apollo NFT MarketPlace is a project I designed after my interest in
             web3 and its ecosystem.
           </p>
+          <p className="project-details">
+            I got the inspiration for this from the figma community.
+          </p>
           <a href="##">Read case study</a>
         </div>
       </div>
