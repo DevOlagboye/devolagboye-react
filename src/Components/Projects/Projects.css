@@ -18,7 +18,8 @@
 
 .project-image {
     margin-top: 30px;
-    width: 450px;
+    width: 460px;
+    border-radius: 10px;
 }
 
 .image-link {
