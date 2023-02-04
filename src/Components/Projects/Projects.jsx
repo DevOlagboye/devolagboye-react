@@ -20,7 +20,7 @@ const Projects = () => {
           <p className="project-details">
             I got the inspiration for this from the figma community.
           </p>
-          <a href="##">Read case study</a>
+          <a href="##" className="case-study-link">Read case study</a>
         </div>
       </div>
     </div>
