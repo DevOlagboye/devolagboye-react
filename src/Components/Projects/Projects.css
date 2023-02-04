@@ -27,6 +27,11 @@
     margin-bottom: 10px;
 }
 
+.project-details {
+    margin-bottom: 10px;
+    color: #a09f99;
+}
+
 @media (min-width: 768px) {
     .projects-container {
         margin-left: 330px;
