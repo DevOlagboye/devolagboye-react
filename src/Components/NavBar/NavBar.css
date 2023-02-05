@@ -67,8 +67,8 @@
 .ant-dropdown-menu .ant-dropdown-menu-item-selected {
     background-color: #282826 !important;
     color: #fff !important;
-    padding: 0px 5px 0px 5px !important;
-    border-radius: 15px !important;
+    padding: 5px 5px 5px 5px !important;
+    border-radius: 5px !important;
 }
 
 @media (min-width: 768px) {
