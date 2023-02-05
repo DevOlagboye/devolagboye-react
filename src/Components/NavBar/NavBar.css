@@ -40,6 +40,17 @@
 
 .svg {
     color: #a1a09a;
+    transition: ease-in-out 0.3s;
+}
+
+.svg:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.svg.active {
+    background: #282826;
+    border-radius: 50%;
 }
 
 .nav-links {
@@ -67,8 +78,8 @@
 .ant-dropdown-menu .ant-dropdown-menu-item-selected {
     background-color: #282826 !important;
     color: #fff !important;
-    padding: 0px 5px 0px 5px !important;
-    border-radius: 15px !important;
+    padding: 5px 5px 5px 5px !important;
+    border-radius: 5px !important;
 }
 
 @media (min-width: 768px) {
