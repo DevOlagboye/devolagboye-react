@@ -40,18 +40,19 @@
 
 .svg {
     color: #a1a09a;
-    transition: ease-in-out .3s;
+    transition: ease-in-out 0.3s;
 }
-.svg:hover{
+
+.svg:hover {
     cursor: pointer;
-    color: #FFF;
+    color: #fff;
 }
-.svg .active{
-    background: #000;
-    width: 40px;
-    height: 40px;
+
+.svg.active {
+    background: #282826;
     border-radius: 50%;
 }
+
 .nav-links {
     border-radius: 16px;
     text-decoration: none;
