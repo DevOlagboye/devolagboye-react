@@ -40,6 +40,12 @@
 
 .svg {
     color: #a1a09a;
+    transition: ease-in-out .3s;
+}
+.svg:hover{
+    cursor: pointer;
+    color: #FFF;
+
 }
 
 .nav-links {
