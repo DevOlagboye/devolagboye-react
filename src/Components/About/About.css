@@ -15,3 +15,12 @@
     border-radius: 30px;
     transform: rotate(-10deg);
 }
+
+.about-second-image>img {
+    width: 200px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 30px;
+    transform: rotate(10deg);
+    margin-left: -30px;
+}
