@@ -1,8 +1,15 @@
-.about-container{
+.about-container {
     margin-top: 70px;
 }
-.about-image-container{
+
+.about-image-container {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.about-first-image>img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
 }
