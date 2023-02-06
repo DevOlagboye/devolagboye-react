@@ -1,5 +1,5 @@
 .about-container {
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 .about-image-container {
@@ -13,4 +13,5 @@
     height: 200px;
     object-fit: cover;
     border-radius: 30px;
+    transform: rotate(-10deg);
 }
