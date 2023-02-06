@@ -1,5 +1,5 @@
 .about-container {
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 .about-image-container {
@@ -13,4 +13,32 @@
     height: 200px;
     object-fit: cover;
     border-radius: 30px;
+    transform: rotate(-10deg);
+}
+
+.about-second-image>img {
+    width: 200px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 30px;
+    transform: rotate(10deg);
+    margin-left: -30px;
+}
+
+.about-third-image>img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+    transform: rotate(-10deg);
+    margin-left: -30px;
+}
+
+.about-fourth-image>img {
+    width: 200px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 30px;
+    transform: rotate(10deg);
+    margin-left: -40px;
 }
