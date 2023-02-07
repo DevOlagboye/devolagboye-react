@@ -32,11 +32,17 @@ const About = () => {
             simple and smooth interfaces.
           </h5>
           <h5 className="about-work">
-            I currently work part-time at{" "}
-            <a href="https://safemoney.network">Safemoney</a>, a web3 community
+            I currently work remotely at{" "}
+            <a href="https://safemoney.network">SafeMoney</a>, a web3 community
             as a Frontend Engineer. I currently work with some other startups in
             web2 like Copnow - an E-Commerce Startup as well as Pickbox a
             Logistics Startup.
+          </h5>
+          <h5 className="about-work">
+            I am a lover of good designs, as well as stress-free UX, I love
+            working with good UI/UX designers, been opportuned to work with some
+            in the team as well as from the{" "}
+            <a href="https://figma community">Figma Community</a>
           </h5>
         </div>
       </div>
