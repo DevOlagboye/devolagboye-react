@@ -42,7 +42,7 @@ const About = () => {
             I am a lover of good designs, as well as stress-free UX, I love
             working with good UI/UX designers, been opportuned to work with some
             in the team as well as from the{" "}
-            <a href="https://figma community">Figma Community</a>
+            <a href="https://figma.com/community">Figma Community.</a>
           </h5>
         </div>
       </div>

@@ -72,4 +72,10 @@
 
 .about-work {
     margin-top: 20px;
+    line-height: 24px;
+}
+
+.about-work>a {
+    color: #fff;
+    text-underline-offset: 5px;
 }
