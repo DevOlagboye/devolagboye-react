@@ -44,6 +44,11 @@ const About = () => {
             in the team as well as from the{" "}
             <a href="https://figma.com/community">Figma Community.</a>
           </h5>
+          <h5 className="about-work">
+            I love action games, football, as well as traveling and adventures,
+            when I am outside of work because adventure refreshes my brain and
+            helps my creativity.
+          </h5>
         </div>
       </div>
     </div>
