@@ -67,4 +67,9 @@
     font-size: 16px;
     color: #fff;
     font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+.about-work {
+    margin-top: 20px;
 }

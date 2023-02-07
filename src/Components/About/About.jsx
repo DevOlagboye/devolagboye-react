@@ -27,9 +27,16 @@ const About = () => {
         </div>
         <div className="about-me-details">
           <h5>
-            <span>Hi there!</span> I'm Olagboye, a frontend engineer with
+            <span>Hi there!</span> I'm Olagboye, a Frontend engineer with
             passion & love for designs and its aesthetics. I love building
             simple and smooth interfaces.
+          </h5>
+          <h5 className="about-work">
+            I currently work part-time at{" "}
+            <a href="https://safemoney.network">Safemoney</a>, a web3 community
+            as a Frontend Engineer. I currently work with some other startups in
+            web2 like Copnow - an E-Commerce Startup as well as Pickbox a
+            Logistics Startup.
           </h5>
         </div>
       </div>
