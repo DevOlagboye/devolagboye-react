@@ -26,7 +26,11 @@ const About = () => {
           <h5>About me</h5>
         </div>
         <div className="about-me-details">
-            <h5><span>Hi there!</span>I'm Olagboye, a frontend engineer with passion & love for designs and its aesthetics. I love building simple and smooth interfaces.</h5>
+          <h5>
+            <span>Hi there!</span> I'm Olagboye, a frontend engineer with
+            passion & love for designs and its aesthetics. I love building
+            simple and smooth interfaces.
+          </h5>
         </div>
       </div>
     </div>

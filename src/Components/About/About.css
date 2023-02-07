@@ -53,7 +53,7 @@
 }
 
 .about-me-details {
-    width: 400px;
+    width: 500px;
 }
 
 .about-me-title>h5 {
@@ -61,4 +61,10 @@
     font-size: 16px;
     font-weight: 400;
     font-family: "Inter", sans-serif;
+}
+
+.about-me-details>h5 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
 }
