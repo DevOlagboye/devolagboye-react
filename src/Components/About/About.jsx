@@ -52,14 +52,14 @@ const About = () => {
         </div>
       </div>
       <div className="connect-container">
-            <div className="connect-title">
-                <h5>Connect</h5>
-            </div>
-            <div className="connect-links">
-                <a href="##">Email</a>
-                <a href="##">Twitter</a>
-                <a href="##">GitHub</a>
-            </div>
+        <div className="connect-title">
+          <h5>Connect</h5>
+        </div>
+        <div className="connect-links">
+          <a href="##">Email</a>
+          <a href="##">Twitter</a>
+          <a href="##">GitHub</a>
+        </div>
       </div>
     </div>
   );
