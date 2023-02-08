@@ -57,8 +57,16 @@ const About = () => {
         </div>
         <div className="connect-links">
           <a href="##">Email</a>
-          <a href="##">Twitter</a>
-          <a href="##">GitHub</a>
+          <a href="https://twitter.com/devolagboye">Twitter</a>
+          <a href="https://github.com/Akingbola1234">GitHub</a>
+        </div>
+      </div>
+      <div className="connect-container">
+        <div className="connect-title">
+          <h5>Side Projects</h5>
+        </div>
+        <div className="connect-links">
+         
         </div>
       </div>
     </div>
