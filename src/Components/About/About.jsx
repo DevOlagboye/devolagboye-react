@@ -46,8 +46,7 @@ const About = () => {
           </h5>
           <h5 className="about-work">
             I love action games, football, as well as traveling and adventures,
-            when I am outside of work because adventure refreshes my brain and
-            helps my creativity.
+            when I am outside of work.
           </h5>
         </div>
       </div>
