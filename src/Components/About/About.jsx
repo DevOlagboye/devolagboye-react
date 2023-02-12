@@ -65,7 +65,8 @@ const About = () => {
           <h5>Side Projects</h5>
         </div>
         <div className="side-projects">
-         
+            <h5>Worked on some other side projects</h5>
+            
         </div>
       </div>
     </div>
