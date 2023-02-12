@@ -110,3 +110,9 @@
     justify-content: center;
     gap: 58px;
 }
+.side-projects-title>h5 {
+    color: #a1a09a;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
