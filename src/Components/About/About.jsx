@@ -3,6 +3,7 @@ import "./About.css";
 import firstAboutImage from "../../assets/images/devolagboye.jpg";
 import myOutingImage from "../../assets/images/myouting-devolagboye.JPG";
 import myDevFestImage from "../../assets/images/devolagboye devfest.JPG";
+import einpunkFavIcon from "../../assets/images/Einpunk Logo white.png"
 
 const About = () => {
   return (
@@ -65,14 +66,14 @@ const About = () => {
           <h5>Side Projects</h5>
         </div>
         <div className="side-projects">
-          <p>Worked on some other side projects</p>
-          <div className="projects-container">
-                <div className="project-logo">
-
+          <h5>Worked on some other side projects</h5>
+          <div className="list-project-container">
+                <div className="list-project-logo">
+                    <img src={einpunkFavIcon} alt="Einpunk Logo" />
                 </div>
-                <div className="project-details">
-                    <h5 className="project-title">Einpunk Token Protocol</h5>
-                    <p className="project-description">Einpunk Token Protocol landing page was built with React and AntUI</p>
+                <div className="list-project-details">
+                    <h5 className="list-project-title">Einpunk Token Protocol</h5>
+                    <p className="list-project-description">Einpunk Token Protocol landing page was built with React and AntUI</p>
                 </div>
           </div>
         </div>
