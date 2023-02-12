@@ -64,7 +64,7 @@ const About = () => {
         <div className="side-projects-title">
           <h5>Side Projects</h5>
         </div>
-        <div className="connect-links">
+        <div className="side-projects">
          
         </div>
       </div>
