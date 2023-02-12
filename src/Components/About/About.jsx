@@ -60,8 +60,8 @@ const About = () => {
           <a href="https://github.com/Akingbola1234">GitHub</a>
         </div>
       </div>
-      <div className="connect-container">
-        <div className="connect-title">
+      <div className="side-projects-container">
+        <div className="side-projects-title">
           <h5>Side Projects</h5>
         </div>
         <div className="connect-links">
