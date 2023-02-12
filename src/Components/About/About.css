@@ -125,18 +125,19 @@
 }
 
 .list-project-logo>img {
-    width: 30px;
+    width: 40px;
     border-radius: 50%;
 }
 
 .list-project-container {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     margin-top: 30px;
 }
 
 .list-project-title {
     color: #fff;
     font-family: "Inter", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 17px;
 }
