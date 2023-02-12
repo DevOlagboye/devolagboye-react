@@ -66,6 +66,15 @@ const About = () => {
         </div>
         <div className="side-projects">
           <p>Worked on some other side projects</p>
+          <div className="projects-container">
+                <div className="project-logo">
+
+                </div>
+                <div className="project-details">
+                    <h5 className="project-title">Einpunk Token Protocol</h5>
+                    <p className="project-description"></p>
+                </div>
+          </div>
         </div>
       </div>
     </div>
