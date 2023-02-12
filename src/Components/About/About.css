@@ -146,3 +146,10 @@
     color: #a1a09a;
     margin-top: 10px;
 }
+
+.side-projects>h5 {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
