@@ -72,7 +72,7 @@ const About = () => {
                 </div>
                 <div className="project-details">
                     <h5 className="project-title">Einpunk Token Protocol</h5>
-                    <p className="project-description"></p>
+                    <p className="project-description">Einpunk Token Protocol landing page was built with React and AntUI</p>
                 </div>
           </div>
         </div>

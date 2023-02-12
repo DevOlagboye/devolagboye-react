@@ -104,19 +104,22 @@
     text-underline-offset: 5px;
     margin-right: 20px;
 }
-.side-projects-container{
+
+.side-projects-container {
     margin-top: 70px;
     display: flex;
     justify-content: center;
     gap: 58px;
 }
+
 .side-projects-title>h5 {
     color: #a1a09a;
     font-size: 16px;
     font-weight: 400;
     font-family: "Inter", sans-serif;
 }
-.side-projects{
+
+.side-projects {
     width: 500px;
     margin-bottom: 50px;
 }
