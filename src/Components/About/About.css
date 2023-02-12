@@ -123,3 +123,8 @@
     width: 500px;
     margin-bottom: 50px;
 }
+
+.list-project-logo>img {
+    width: 30px;
+    border-radius: 50%;
+}
