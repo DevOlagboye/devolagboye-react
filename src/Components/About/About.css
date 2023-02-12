@@ -128,3 +128,15 @@
     width: 30px;
     border-radius: 50%;
 }
+
+.list-project-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.list-project-title {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
