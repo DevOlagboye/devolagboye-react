@@ -68,6 +68,7 @@ const About = () => {
         <div className="side-projects">
           <h5>Worked on some other side projects</h5>
           <div className="list-project-container">
+                <a href="##">
                 <div className="list-project-logo">
                     <img src={einpunkFavIcon} alt="Einpunk Logo" />
                 </div>
@@ -75,6 +76,7 @@ const About = () => {
                     <h5 className="list-project-title">Einpunk Token Protocol</h5>
                     <p className="list-project-description">Einpunk Token Protocol landing page was built with React and AntUI.</p>
                 </div>
+                </a>
           </div>
         </div>
       </div>
