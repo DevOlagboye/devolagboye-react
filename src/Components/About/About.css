@@ -138,6 +138,7 @@
 .list-project-link {
     display: flex;
     gap: 15px;
+    text-decoration: none;
 }
 
 .list-project-title {
