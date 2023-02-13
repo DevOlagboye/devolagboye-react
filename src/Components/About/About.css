@@ -131,6 +131,7 @@
 
 .list-project-container {
     display: flex;
+    flex-direction: column;
     gap: 15px;
     margin-top: 30px;
 }
@@ -139,6 +140,7 @@
     display: flex;
     gap: 15px;
     text-decoration: none;
+    margin-bottom: 30px;
 }
 
 .list-project-title {
