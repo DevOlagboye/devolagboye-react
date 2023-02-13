@@ -80,6 +80,18 @@ const About = () => {
                 </p>
               </div>
             </a>
+            <a href="https://github.com/Einpunk-Protocol/Einpunk-Token-landing-page" target="blank" className="list-project-link">
+              <div className="list-project-logo">
+                <img src={einpunkFavIcon} alt="Einpunk Logo" />
+              </div>
+              <div className="list-project-details">
+                <h5 className="list-project-title">Einpunk Token Protocol</h5>
+                <p className="list-project-description">
+                  Einpunk Token Protocol landing page was built with React and
+                  AntUI.
+                </p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
