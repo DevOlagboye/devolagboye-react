@@ -81,9 +81,9 @@ const About = () => {
                 </p>
               </div>
             </a>
-            <a href="https://github.com/Einpunk-Protocol/Einpunk-Token-landing-page" target="blank" className="list-project-link">
+            <a href="https://github.com/Akingbola1234/devolagboye-react" target="blank" className="list-project-link">
               <div className="list-project-logo">
-                <img src={devolagboyeFavIcon} alt="Einpunk Logo" />
+                <img src={devolagboyeFavIcon} alt="Dev Olagboye Profile" />
               </div>
               <div className="list-project-details">
                 <h5 className="list-project-title">Dev Olagboye Portfolio</h5>
