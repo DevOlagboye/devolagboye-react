@@ -68,7 +68,7 @@ const About = () => {
         <div className="side-projects">
           <h5>Worked on some other side projects</h5>
           <div className="list-project-container">
-            <a href="##" className="list-project-link">
+            <a href="https://einpunk.finance" target="blank" className="list-project-link">
               <div className="list-project-logo">
                 <img src={einpunkFavIcon} alt="Einpunk Logo" />
               </div>
