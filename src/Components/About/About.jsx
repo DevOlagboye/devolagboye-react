@@ -4,6 +4,7 @@ import firstAboutImage from "../../assets/images/devolagboye.jpg";
 import myOutingImage from "../../assets/images/myouting-devolagboye.JPG";
 import myDevFestImage from "../../assets/images/devolagboye devfest.JPG";
 import einpunkFavIcon from "../../assets/images/Einpunk Logo white.png";
+import devolagboyeFavIcon from "../../assets/images/profile-pic.JPG"
 
 const About = () => {
   return (
@@ -82,7 +83,7 @@ const About = () => {
             </a>
             <a href="https://github.com/Einpunk-Protocol/Einpunk-Token-landing-page" target="blank" className="list-project-link">
               <div className="list-project-logo">
-                <img src={einpunkFavIcon} alt="Einpunk Logo" />
+                <img src={devolagboyeFavIcon} alt="Einpunk Logo" />
               </div>
               <div className="list-project-details">
                 <h5 className="list-project-title">Dev Olagboye Portfolio</h5>
