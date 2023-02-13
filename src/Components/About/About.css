@@ -135,6 +135,12 @@
     margin-top: 30px;
 }
 
+.list-project-link {
+    display: flex;
+    gap: 15px;
+    text-decoration: none;
+}
+
 .list-project-title {
     color: #fff;
     font-family: "Inter", sans-serif;
