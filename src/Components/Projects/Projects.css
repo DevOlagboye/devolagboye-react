@@ -48,6 +48,10 @@
     text-underline-offset: 5px;
 }
 
+.case-study-link .icon {
+    text-decoration: underline;
+}
+
 @media (min-width: 768px) {
     .projects-container {
         margin-left: 330px;

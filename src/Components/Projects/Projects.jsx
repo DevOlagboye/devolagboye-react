@@ -1,5 +1,6 @@
 import React from "react";
 import "./Projects.css";
+import { AiOutlineRise } from "react-icons/ai";
 import nftLandPage from "../../assets/images/Landing Page NFT - Apollo NFT (Community).png";
 import aviationLandPage from "../../assets/images/01_Aviation landing page 1.png";
 import cocoinLandPage from "../../assets/images/cocoin.png";
@@ -24,7 +25,7 @@ const Projects = () => {
             I got the inspiration for this from the figma community.
           </p>
           <a href="##" className="case-study-link">
-            Visit Live →
+            Visit Live <AiOutlineRise className="icon" />
           </a>
 
           <a
@@ -53,7 +54,7 @@ const Projects = () => {
             I got the inspiration for this from the figma community.
           </p>
           <a href="##" className="case-study-link">
-            Visit Live
+            Visit Live <AiOutlineRise className="icon" />
           </a>
           <a
             className="image-link"
@@ -81,7 +82,7 @@ const Projects = () => {
             I got the inspiration for this from the figma community.
           </p>
           <a href="##" className="case-study-link">
-            Visit Live
+            Visit Live <AiOutlineRise className="icon" />
           </a>
           <a
             className="image-link"
