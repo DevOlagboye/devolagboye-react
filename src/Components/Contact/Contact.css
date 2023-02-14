@@ -18,7 +18,12 @@
 }
 
 .contact-text>h5 {
-    line-height: 20px;
+    line-height: 26px;
     font-weight: 400;
     font-size: 18px;
+}
+
+.contact-text>h5>a {
+    color: #fff;
+    text-underline-offset: 5px;
 }
