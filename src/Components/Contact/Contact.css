@@ -1,0 +1,29 @@
+.contact-container {
+    margin-top: 100px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contact-text {
+    width: 400px;
+    text-align: center;
+}
+
+.contact-text>h5 {
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.contact-text>h5>a {
+    color: #fff;
+    text-underline-offset: 5px;
+}
