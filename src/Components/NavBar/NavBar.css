@@ -107,5 +107,6 @@
     .nav-details {
         justify-content: flex-start;
         margin-left: 30px;
+        margin-top: 12px;
     }
 }
