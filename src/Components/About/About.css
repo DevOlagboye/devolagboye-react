@@ -161,3 +161,47 @@
     font-weight: 500;
     font-size: 17px;
 }
+
+.mobile-profile {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .about-image-container {
+        display: none;
+    }
+    .about-me-container {
+        flex-direction: column;
+        padding: 30px;
+        margin-top: 40px;
+    }
+    .about-me-details {
+        width: 100%;
+    }
+    .connect-container {
+        flex-direction: column;
+        padding: 30px;
+        margin-top: 20px;
+        gap: 28px;
+    }
+    .side-projects-container {
+        flex-direction: column;
+        padding: 30px;
+        gap: 38px;
+    }
+    .side-projects {
+        width: 100%;
+    }
+    .mobile-profile {
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+    .about-container {
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+}
