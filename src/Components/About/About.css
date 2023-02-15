@@ -52,10 +52,6 @@
     margin-top: 100px;
 }
 
-.about-me-details {
-    width: 500px;
-}
-
 .about-me-title>h5 {
     color: #a1a09a;
     font-size: 16px;
@@ -203,5 +199,11 @@
     .about-container {
         margin-top: 10px;
         padding-top: 10px;
+    }
+}
+
+@media (min-width: 767px) {
+    .about-me-details {
+        width: 500px;
     }
 }
