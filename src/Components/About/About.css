@@ -168,5 +168,10 @@
     }
     .about-me-container {
         flex-direction: column;
+        padding: 30px;
+        margin-top: 40px;
+    }
+    .about-me-details {
+        width: 100%;
     }
 }
