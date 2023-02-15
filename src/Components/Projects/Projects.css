@@ -1,7 +1,3 @@
-.projects-container {
-    padding: 50px;
-}
-
 .projects-container .text {
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -67,5 +63,17 @@
     .project-details {
         flex-wrap: wrap;
         gap: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .projects-container {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .projects-container {
+        padding: 20px;
     }
 }
