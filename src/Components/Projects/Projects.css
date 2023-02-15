@@ -62,7 +62,7 @@
 
 @media (max-width: 600px) {
     .project-image {
-        width: 370px;
+        width: 97%;
     }
     .project-details {
         flex-wrap: wrap;
