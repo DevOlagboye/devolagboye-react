@@ -183,5 +183,9 @@
     .side-projects-container {
         flex-direction: column;
         padding: 30px;
+        gap: 38px;
+    }
+    .side-projects {
+        width: 100%;
     }
 }
