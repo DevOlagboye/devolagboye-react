@@ -64,4 +64,7 @@
     .project-image {
         width: 360px;
     }
+    .project-details {
+        flex-wrap: wrap;
+    }
 }
