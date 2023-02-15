@@ -161,3 +161,9 @@
     font-weight: 500;
     font-size: 17px;
 }
+
+@media (max-width: 600px) {
+    .about-image-container {
+        display: none;
+    }
+}
