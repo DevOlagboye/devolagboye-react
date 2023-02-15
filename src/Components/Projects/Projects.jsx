@@ -17,7 +17,7 @@ const Projects = () => {
         </div>
         <div className="project-main-details">
           <h5 className="project-name">Apollo NFT MarketPlace</h5>
-          <p className="project-details-text">
+          <p className="project-details">
             Apollo NFT MarketPlace is a project I designed after my interest in
             web3 and its ecosystem.
           </p>
