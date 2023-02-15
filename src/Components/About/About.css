@@ -162,6 +162,10 @@
     font-size: 17px;
 }
 
+.mobile-profile {
+    display: none;
+}
+
 @media (max-width: 600px) {
     .about-image-container {
         display: none;
@@ -187,5 +191,17 @@
     }
     .side-projects {
         width: 100%;
+    }
+    .mobile-profile {
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+    .about-container {
+        margin-top: 10px;
+        padding-top: 10px;
     }
 }
