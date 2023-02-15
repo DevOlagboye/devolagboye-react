@@ -1,7 +1,8 @@
 .nav-bar-container {
     width: 100%;
-    height: 60px;
-    background: #151514;
+    height: 50px;
+    background: #ffffff00;
+    backdrop-filter: blur(12px);
     position: fixed;
     top: 0;
     z-index: 999;
@@ -100,7 +101,6 @@
         gap: 13px;
     }
     .profile-pic {
-        width: 30px;
-        height: 30px;
+        display: none;
     }
 }

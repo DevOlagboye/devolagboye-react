@@ -20,10 +20,9 @@
 
 .project-image {
     margin-top: 30px;
-    width: 460px;
-    height: 250px;
     object-fit: cover;
     border-radius: 10px;
+    height: 250px;
 }
 
 .image-link {
@@ -48,8 +47,37 @@
     text-underline-offset: 5px;
 }
 
+.case-study-link .icon {
+    text-decoration: underline;
+}
+
 @media (min-width: 768px) {
     .projects-container {
         margin-left: 330px;
+    }
+    .project-image {
+        width: 460px;
+    }
+}
+
+@media (max-width: 600px) {
+    .project-image {
+        width: 370px;
+    }
+    .project-details {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .projects-container {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .projects-container {
+        padding: 20px;
     }
 }
