@@ -109,4 +109,9 @@
         margin-left: 30px;
         margin-top: 12px;
     }
+    .svg {
+        right: 10px;
+        top: 10px;
+        position: absolute;
+    }
 }
