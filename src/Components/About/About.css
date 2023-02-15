@@ -166,4 +166,7 @@
     .about-image-container {
         display: none;
     }
+    .about-me-container {
+        flex-direction: column;
+    }
 }
