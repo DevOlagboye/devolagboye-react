@@ -180,4 +180,8 @@
         margin-top: 20px;
         gap: 28px;
     }
+    .side-projects-container {
+        flex-direction: column;
+        padding: 30px;
+    }
 }
