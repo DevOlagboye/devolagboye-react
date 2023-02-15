@@ -1,3 +1,7 @@
+.projects-container {
+    padding: 50px;
+}
+
 .projects-container .text {
     font-family: "Inter", sans-serif;
     font-weight: 400;

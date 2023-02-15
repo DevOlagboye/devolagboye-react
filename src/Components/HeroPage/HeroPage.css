@@ -1,6 +1,19 @@
 .heropage-container {
-    margin-top: 50px;
     padding: 50px;
+}
+
+@media (min-width: 768px) {
+    .heropage-container {
+        padding: 50px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .heropage-container {
+        padding: 20px;
+        margin-top: 80px;
+    }
 }
 
 .main-text {
