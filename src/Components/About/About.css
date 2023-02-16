@@ -17,6 +17,10 @@
     transform: rotate(-10deg);
 }
 
+.about-first-image>img:hover {
+    cursor: pointer;
+}
+
 .about-second-image>img {
     width: 200px;
     height: 230px;
