@@ -17,6 +17,10 @@
     transform: rotate(-10deg);
 }
 
+.about-first-image>img:hover {
+    cursor: pointer;
+}
+
 .about-second-image>img {
     width: 200px;
     height: 230px;
@@ -24,6 +28,10 @@
     border-radius: 30px;
     transform: rotate(10deg);
     margin-left: -30px;
+}
+
+.about-second-image>img:hover {
+    cursor: pointer;
 }
 
 .about-third-image>img {
@@ -35,6 +43,10 @@
     margin-left: -30px;
 }
 
+.about-third-image>img:hover {
+    cursor: pointer;
+}
+
 .about-fourth-image>img {
     width: 200px;
     height: 230px;
@@ -42,6 +54,10 @@
     border-radius: 30px;
     transform: rotate(10deg);
     margin-left: -40px;
+}
+
+.about-fourth-image>img:hover {
+    cursor: pointer;
 }
 
 .about-me-container {

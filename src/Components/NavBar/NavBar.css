@@ -6,6 +6,7 @@
     position: fixed;
     top: 0;
     z-index: 999;
+    font-family: "Inter", sans-serif;
 }
 
 .profile-pic {
@@ -41,7 +42,10 @@
 
 .svg {
     color: #a1a09a;
+    background: none;
+    border: none;
     transition: ease-in-out 0.3s;
+    font-size: 15px;
 }
 
 .svg:hover {
@@ -50,7 +54,9 @@
 }
 
 .svg.active {
-    background: #282826;
+    background: #ddddd7;
+    height: 28px;
+    width: 28px;
     border-radius: 50%;
 }
 

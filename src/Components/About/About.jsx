@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import "./About.css";
 import firstAboutImage from "../../assets/images/devolagboye.jpg";
 import myOutingImage from "../../assets/images/myouting-devolagboye.JPG";
@@ -12,21 +13,21 @@ const About = () => {
     <div className="about-container">
       <div className="about-image-container">
         <div className="about-first-image">
-          <img src={firstAboutImage} alt="" />
+          <motion.img drag src={firstAboutImage} alt="" />
         </div>
         <div className="about-second-image">
-          <img src={myOutingImage} alt="" />
+          <motion.img drag src={myOutingImage} alt="" />
         </div>
         <div className="about-third-image">
-          <img src={devOlagboyeInBlack} alt="devOlagboye-In-Black" />
+          <motion.img drag src={devOlagboyeInBlack} alt="devOlagboye-In-Black" />
         </div>
         <div className="about-fourth-image">
-          <img src={myDevFestImage} alt="" />
+          <motion.img drag src={myDevFestImage} alt="" />
         </div>
       </div>
       <div className="about-me-container">
         <div className="about-me-title">
-          <img src={devolagboyeFavIcon} alt="" className="mobile-profile" />
+          <motion.img drag src={devolagboyeFavIcon} alt="" className="mobile-profile" />
           <h5>About me</h5>
         </div>
         <div className="about-me-details">
