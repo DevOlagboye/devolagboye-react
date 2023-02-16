@@ -2,9 +2,10 @@ import React from "react";
 import "./About.css";
 import firstAboutImage from "../../assets/images/devolagboye.jpg";
 import myOutingImage from "../../assets/images/myouting-devolagboye.JPG";
-import myDevFestImage from "../../assets/images/devolagboye devfest.JPG";
+import myDevFestImage from "../../assets/images/devolagboye-devfest.JPG";
 import einpunkFavIcon from "../../assets/images/Einpunk Logo white.png";
 import devolagboyeFavIcon from "../../assets/images/profile-pic.JPG";
+import devOlagboyeInBlack from "../../assets/images/devolagboye-in-black.jpg";
 
 const About = () => {
   return (
@@ -17,7 +18,7 @@ const About = () => {
           <img src={myOutingImage} alt="" />
         </div>
         <div className="about-third-image">
-          <img src={firstAboutImage} alt="" />
+          <img src={devOlagboyeInBlack} alt="devOlagboye-In-Black" />
         </div>
         <div className="about-fourth-image">
           <img src={myDevFestImage} alt="" />

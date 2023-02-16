@@ -94,7 +94,7 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 760px) {
     .nav-links {
         padding: 7px 15px 7px 15px;
     }
@@ -108,5 +108,10 @@
         justify-content: flex-start;
         margin-left: 30px;
         margin-top: 12px;
+    }
+    .svg {
+        right: 10px;
+        top: 10px;
+        position: absolute;
     }
 }
