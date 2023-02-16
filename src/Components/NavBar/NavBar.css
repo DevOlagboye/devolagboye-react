@@ -6,6 +6,7 @@
     position: fixed;
     top: 0;
     z-index: 999;
+    font-family: "Inter", sans-serif;
 }
 
 .profile-pic {
