@@ -56,13 +56,6 @@
     color: #282826;
 }
 
-.svg.active {
-    background: #ddddd7;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-}
-
 .nav-links {
     border-radius: 16px;
     text-decoration: none;
@@ -118,7 +111,8 @@
         margin-left: 30px;
         margin-top: 12px;
     }
-    .svg {
+    .svg,
+    .svg.active {
         right: 6px;
         top: 6px;
         position: absolute;
