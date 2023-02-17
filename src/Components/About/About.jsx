@@ -19,7 +19,11 @@ const About = () => {
           <motion.img drag src={myOutingImage} alt="" />
         </div>
         <div className="about-third-image">
-          <motion.img drag src={devOlagboyeInBlack} alt="devOlagboye-In-Black" />
+          <motion.img
+            drag
+            src={devOlagboyeInBlack}
+            alt="devOlagboye-In-Black"
+          />
         </div>
         <div className="about-fourth-image">
           <motion.img drag src={myDevFestImage} alt="" />
@@ -27,14 +31,19 @@ const About = () => {
       </div>
       <div className="about-me-container">
         <div className="about-me-title">
-          <motion.img drag src={devolagboyeFavIcon} alt="" className="mobile-profile" />
+          <motion.img
+            drag
+            src={devolagboyeFavIcon}
+            alt=""
+            className="mobile-profile"
+          />
           <h5>About me</h5>
         </div>
         <div className="about-me-details">
           <h5>
             <span>Hi there!</span> I'm Olagboye, a Frontend engineer with
-            passion & love for designs and its aesthetics. I love building
-            simple and smooth interfaces.
+            passion & love for designs and its aesthetics. I am a lover of
+            minimal, simple and smooth interfaces.
           </h5>
           <h5 className="about-work">
             I currently work remotely at{" "}

@@ -240,7 +240,8 @@
     .side-projects-container {
         flex-direction: column;
         padding: 30px;
-        gap: 38px;
+        gap: 28px;
+        margin-top: 10px;
     }
     .side-projects {
         width: 100%;
