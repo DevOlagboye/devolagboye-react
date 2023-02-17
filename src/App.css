@@ -10,6 +10,7 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-.light {
+.light-theme h6,
+h5 {
     color: #000 !important;
 }
