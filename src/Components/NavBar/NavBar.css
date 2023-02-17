@@ -45,7 +45,6 @@
     background: none;
     border: none;
     transition: ease-in-out 0.3s;
-    font-size: 15px;
 }
 
 .svg:hover {
@@ -53,11 +52,8 @@
     color: #fff;
 }
 
-.svg.active {
-    background: #ddddd7;
-    height: 28px;
-    width: 28px;
-    border-radius: 50%;
+.light-theme .svg:hover {
+    color: #282826;
 }
 
 .nav-links {
@@ -115,9 +111,10 @@
         margin-left: 30px;
         margin-top: 12px;
     }
-    .svg {
-        right: 10px;
-        top: 10px;
+    .svg,
+    .svg.active {
+        right: 6px;
+        top: 6px;
         position: absolute;
     }
 }
