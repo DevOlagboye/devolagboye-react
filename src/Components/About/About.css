@@ -206,6 +206,10 @@
     font-size: 17px;
 }
 
+.light-theme .side-projects>h5 {
+    color: #000;
+}
+
 .mobile-profile {
     display: none;
 }
