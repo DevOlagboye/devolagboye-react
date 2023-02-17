@@ -86,6 +86,7 @@
     font-size: 16px;
     font-weight: 400;
     font-family: "Inter", sans-serif;
+    color: #fff;
 }
 
 .dark-theme .about-me-details>h5 {
@@ -103,6 +104,7 @@
 
 .about-work>a {
     text-underline-offset: 5px;
+    color: #fff;
 }
 
 .dark-theme .about-work>a {
@@ -130,6 +132,7 @@
 .connect-links {
     width: 500px;
     margin-bottom: 50px;
+    color: #fff;
 }
 
 .connect-links>a {
