@@ -109,6 +109,10 @@
     color: #fff;
 }
 
+.light-theme .about-work>a {
+    color: #000;
+}
+
 .connect-container {
     margin-top: 70px;
     display: flex;
