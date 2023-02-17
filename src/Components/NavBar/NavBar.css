@@ -53,10 +53,14 @@
     color: #fff;
 }
 
+.light-theme .svg:hover {
+    color: #282826;
+}
+
 .svg.active {
     background: #ddddd7;
-    height: 28px;
-    width: 28px;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
 }
 
@@ -116,8 +120,8 @@
         margin-top: 12px;
     }
     .svg {
-        right: 10px;
-        top: 10px;
+        right: 6px;
+        top: 6px;
         position: absolute;
     }
 }
