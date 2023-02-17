@@ -102,8 +102,11 @@
 }
 
 .about-work>a {
-    color: #fff;
     text-underline-offset: 5px;
+}
+
+.dark-theme .about-work>a {
+    color: #fff;
 }
 
 .connect-container {
