@@ -4,6 +4,10 @@
     font-family: "Inter", sans-serif;
 }
 
+.light-theme .contact-container {
+    color: #000;
+}
+
 .contact-details {
     display: flex;
     justify-content: center;
@@ -26,4 +30,8 @@
 .contact-text>h5>a {
     color: #fff;
     text-underline-offset: 5px;
+}
+
+.light-theme .contact-text>h5>a {
+    color: #000;
 }
