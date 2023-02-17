@@ -35,16 +35,30 @@
 }
 
 .project-name {
-    color: #fff;
     font-size: 16.5px;
     font-family: "Inter", sans-serif;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
-.case-study-link {
+.dark-theme .project-name {
     color: #fff;
+}
+
+.light-theme .project-name {
+    color: #000;
+}
+
+.case-study-link {
     text-underline-offset: 5px;
+}
+
+.dark-theme .case-study-link {
+    color: #fff;
+}
+
+.light-theme .case-study-link {
+    color: #000;
 }
 
 .case-study-link .icon {
