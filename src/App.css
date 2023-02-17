@@ -10,7 +10,13 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-.light-theme h6,
+
+/* .light-theme h6,
 h5 {
     color: #000 !important;
 }
+
+.dark-theme h6,
+h5 {
+    color: #fff !important;
+} */
