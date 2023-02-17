@@ -190,6 +190,10 @@
     font-size: 17px;
 }
 
+.light-theme .list-project-title {
+    color: #000;
+}
+
 .list-project-description {
     color: #a1a09a;
     margin-top: 10px;
