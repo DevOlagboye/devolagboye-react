@@ -1,15 +1,21 @@
 import React from "react";
 import "./HeroPage.css";
+import { delay, motion } from "framer-motion";
 
 const HeroPage = () => {
   return (
     <div className="heropage-container">
       <div className="main-text">
-        <h6>Hi there, I am Akingbola Olagboye</h6>
-        <p>
+        <motion.h6 animate={{ y: -4 }}>
+          Hi there, I am Akingbola Olagboye
+        </motion.h6>
+        <motion.p
+          animate={{ y: -4 }}
+          transition={{ type: "spring", delay: 0.1 }}
+        >
           A Frontend Engineer, that has passions & love for design and its
           aesthetics, recently got interested in exploring open source and web3.
-        </p>
+        </motion.p>
       </div>
     </div>
   );
