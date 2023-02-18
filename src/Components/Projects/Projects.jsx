@@ -1,9 +1,9 @@
 import React from "react";
 import "./Projects.css";
 import { AiOutlineRise } from "react-icons/ai";
-import nftLandPage from "../../assets/images/Landing Page NFT - Apollo NFT (Community).png";
-import aviationLandPage from "../../assets/images/01_Aviation landing page 1.png";
-import cocoinLandPage from "../../assets/images/cocoin.png";
+import nftLandPage from "../../assets/images/Landing Page NFT - Apollo NFT (Community).jpg";
+import aviationLandPage from "../../assets/images/01_Aviation landing page 1.jpg";
+import cocoinLandPage from "../../assets/images/cocoin.jpg";
 
 const Projects = () => {
   return (
