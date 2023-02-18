@@ -24,12 +24,19 @@ const Projects = () => {
           <p className="project-details">
             I got the inspiration for this from the figma community.
           </p>
-          <a href="https://nft-marketplace-landing-page.netlify.app/" target="_blank" rel="noreferrer" className="case-study-link">
+          <a
+            href="https://nft-marketplace-landing-page.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="case-study-link"
+          >
             Visit Live <AiOutlineRise className="icon" />
           </a>
 
           <a
-            className="image-link" target="_blank" rel="noreferrer"
+            className="image-link"
+            target="_blank"
+            rel="noreferrer"
             href="https://nft-marketplace-landing-page.netlify.app/"
           >
             <img
@@ -53,7 +60,12 @@ const Projects = () => {
           <p className="project-details">
             I got the inspiration for this from the figma community.
           </p>
-          <a href="https://aviation-landingpage.netlify.app/" className="case-study-link" target="_blank" rel="noreferrer">
+          <a
+            href="https://aviation-landingpage.netlify.app/"
+            className="case-study-link"
+            target="_blank"
+            rel="noreferrer"
+          >
             Visit Live <AiOutlineRise className="icon" />
           </a>
           <a
@@ -81,7 +93,12 @@ const Projects = () => {
           <p className="project-details">
             I got the inspiration for this from the figma community.
           </p>
-          <a href="##" className="case-study-link">
+          <a
+            href="https://cocoin-dapp-interface.netlify.app/"
+            className="case-study-link"
+            target="_blank"
+            rel="noreferrer"
+          >
             Visit Live <AiOutlineRise className="icon" />
           </a>
           <a
