@@ -29,7 +29,7 @@ const Projects = () => {
           </a>
 
           <a
-            className="image-link"
+            className="image-link" target="_blank" rel="noreferrer"
             href="https://nft-marketplace-landing-page.netlify.app/"
           >
             <img
