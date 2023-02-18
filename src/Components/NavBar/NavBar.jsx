@@ -81,7 +81,6 @@ const NavBar = () => {
         </div>
         <div>
           <button
-            name="svg-button"
             className="nav-list-button"
             ref={svgRef}
             onClick={handleClick}
