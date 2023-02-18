@@ -25,7 +25,14 @@ const Contact = () => {
               Twitter
             </a>{" "}
             I post about Tech and Frontend we can collaborate on{" "}
-            <a href="##">Github</a> or you shoot a <a href="##">Mail</a>
+            <a
+              href="https://github.com/Akingbola1234"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>{" "}
+            or you shoot a <a href="##">Mail</a>
           </h5>
         </div>
         <div className="contact-text">
