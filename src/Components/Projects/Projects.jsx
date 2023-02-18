@@ -24,7 +24,7 @@ const Projects = () => {
           <p className="project-details">
             I got the inspiration for this from the figma community.
           </p>
-          <a href="##" className="case-study-link">
+          <a href="https://nft-marketplace-landing-page.netlify.app/" target="_blank" rel="noreferrer" className="case-study-link">
             Visit Live <AiOutlineRise className="icon" />
           </a>
 
