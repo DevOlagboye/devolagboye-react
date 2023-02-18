@@ -53,7 +53,7 @@ const Projects = () => {
           <p className="project-details">
             I got the inspiration for this from the figma community.
           </p>
-          <a href="https://aviation-landingpage.netlify.app/" className="case-study-link">
+          <a href="https://aviation-landingpage.netlify.app/" className="case-study-link" target="_blank" rel="noreferrer">
             Visit Live <AiOutlineRise className="icon" />
           </a>
           <a
