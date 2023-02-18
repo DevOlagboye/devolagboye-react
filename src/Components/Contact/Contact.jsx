@@ -16,9 +16,16 @@ const Contact = () => {
             >
               Github
             </a>{" "}
-            You could follow me on <a href="##">Twitter</a> I post about Tech
-            and Frontend we can collaborate on <a href="##">Github</a> or you
-            shoot a <a href="##">Mail</a>
+            You could follow me on{" "}
+            <a
+              href="https://twitter.com/devolagboye"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Twitter
+            </a>{" "}
+            I post about Tech and Frontend we can collaborate on{" "}
+            <a href="##">Github</a> or you shoot a <a href="##">Mail</a>
           </h5>
         </div>
         <div className="contact-text">
