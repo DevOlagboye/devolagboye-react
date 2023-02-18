@@ -8,10 +8,17 @@ const Contact = () => {
         <div className="contact-text">
           <h5>
             Hi there, if you will be looking into connecting with me, we can
-            connect on <a href="https://github.com/Akingbola1234">Github</a> You
-            could follow me on <a href="##">Twitter</a> I post about Tech and
-            Frontend we can collaborate on <a href="##">Github</a> or you shoot
-            a <a href="##">Mail</a>
+            connect on{" "}
+            <a
+              href="https://github.com/Akingbola1234"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>{" "}
+            You could follow me on <a href="##">Twitter</a> I post about Tech
+            and Frontend we can collaborate on <a href="##">Github</a> or you
+            shoot a <a href="##">Mail</a>
           </h5>
         </div>
         <div className="contact-text">
