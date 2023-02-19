@@ -8,7 +8,11 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
-    <div className="projects-container">
+    <motion.div
+      animate={{ y: -4 }}
+      transition={{ type: "spring", delay: 0.2 }}
+      className="projects-container"
+    >
       <div>
         <h6 className="text">Selected Projects</h6>
       </div>
@@ -114,7 +118,7 @@ const Projects = () => {
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
