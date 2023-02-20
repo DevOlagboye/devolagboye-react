@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeroPage.css";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const HeroPage = () => {
   return (
