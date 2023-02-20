@@ -17,7 +17,7 @@ const HeroPage = () => {
   };
   const item = {
     hidden: { opacity: 0 },
-    show: { opacity: 1, y: -4 },
+    show: { opacity: 1, y: -10 },
   };
   return (
     <motion.div
