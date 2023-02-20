@@ -7,10 +7,27 @@ import cocoinLandPage from "../../assets/images/cocoin.jpg";
 import { motion } from "framer-motion";
 
 const Projects = () => {
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        type: "tween",
+        delayChildren: 0.2,
+        staggerChildren: 0.2,
+        duration: 2,
+      },
+    },
+  };
+  const item = {
+    hidden: { opacity: 0 },
+    show: { opacity: 1, y: -4 },
+  };
   return (
     <motion.div
-      animate={{ y: -4 }}
-      transition={{ type: "spring"}}
+    variants={container}
+    initial="hidden"
+    animate="show"
       className="projects-container"
     >
       <div>
