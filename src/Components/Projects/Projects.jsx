@@ -25,9 +25,9 @@ const Projects = () => {
   };
   return (
     <motion.div
-    variants={container}
-    initial="hidden"
-    animate="show"
+      variants={container}
+      initial="hidden"
+      animate="show"
       className="projects-container"
     >
       <div>
