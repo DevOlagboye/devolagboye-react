@@ -31,13 +31,15 @@ const Projects = () => {
       className="projects-container"
     >
       <div>
-        <h6 className="text">Selected Projects</h6>
+        <motion.h6 variants={item} className="text">
+          Selected Projects
+        </motion.h6>
       </div>
       <div className="project-details">
         <div className="year">
-          <p>2023</p>
+          <motion.p variants={item}>2023</motion.p>
         </div>
-        <div className="project-main-details">
+        <motion.div variants={item} className="project-main-details">
           <h5 className="project-name">Apollo NFT MarketPlace</h5>
           <p className="project-details">
             Apollo NFT MarketPlace is a project I designed after my interest in
@@ -67,7 +69,7 @@ const Projects = () => {
               className="project-image"
             />
           </a>
-        </div>
+        </motion.div>
       </div>
       <div className="project-details">
         <div className="year">
