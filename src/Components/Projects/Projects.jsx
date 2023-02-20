@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <motion.div
       animate={{ y: -4 }}
-      transition={{ type: "spring", delay: 0.2 }}
+      transition={{ type: "spring"}}
       className="projects-container"
     >
       <div>

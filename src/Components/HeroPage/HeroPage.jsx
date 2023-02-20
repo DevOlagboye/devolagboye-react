@@ -4,7 +4,11 @@ import { motion } from "framer-motion";
 
 const HeroPage = () => {
   return (
-    <motion.div animate={{ y: -4 }} className="heropage-container">
+    <motion.div
+      animate={{ y: -4 }}
+      transition={{ type: "spring" }}
+      className="heropage-container"
+    >
       <div className="main-text">
         <h6>Hi there, I am Akingbola Olagboye</h6>
         <p>
