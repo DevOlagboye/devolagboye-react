@@ -7,20 +7,39 @@ import cocoinLandPage from "../../assets/images/cocoin.jpg";
 import { motion } from "framer-motion";
 
 const Projects = () => {
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        type: "tween",
+        delayChildren: 0.2,
+        staggerChildren: 0.2,
+        duration: 2,
+      },
+    },
+  };
+  const item = {
+    hidden: { opacity: 0 },
+    show: { opacity: 1, y: -4 },
+  };
   return (
     <motion.div
-      animate={{ y: -4 }}
-      transition={{ type: "spring"}}
+      variants={container}
+      initial="hidden"
+      animate="show"
       className="projects-container"
     >
       <div>
-        <h6 className="text">Selected Projects</h6>
+        <motion.h6 variants={item} className="text">
+          Selected Projects
+        </motion.h6>
       </div>
       <div className="project-details">
         <div className="year">
-          <p>2023</p>
+          <motion.p variants={item}>2023</motion.p>
         </div>
-        <div className="project-main-details">
+        <motion.div variants={item} className="project-main-details">
           <h5 className="project-name">Apollo NFT MarketPlace</h5>
           <p className="project-details">
             Apollo NFT MarketPlace is a project I designed after my interest in
@@ -50,7 +69,7 @@ const Projects = () => {
               className="project-image"
             />
           </a>
-        </div>
+        </motion.div>
       </div>
       <div className="project-details">
         <div className="year">
