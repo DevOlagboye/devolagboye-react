@@ -4,24 +4,24 @@ import { motion } from "framer-motion";
 
 const HeroPage = () => {
   const container = {
-    hidden: {opacity: 0},
+    hidden: { opacity: 0 },
     show: {
       opacity: 1,
-      animate: {y: -4},
       transition: {
-        staggerChildren: 0.5
-      }
-    }
-  }
+        delayChildren: 0.2,
+        staggerChildren: 0.1,
+      },
+    },
+  };
   const item = {
-    hidden: {opacity: 0},
-    show: {opacity: 1}
-  }
+    hidden: { opacity: 0 },
+    show: { opacity: 1, y: -4 },
+  };
   return (
     <motion.div
       variants={container}
       initial="hidden"
-      animate= "show"
+      animate="show"
       className="heropage-container"
     >
       <div className="main-text">
