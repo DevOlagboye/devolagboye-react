@@ -8,7 +8,8 @@ const HeroPage = () => {
     show: {
       opacity: 1,
       transition: {
-        delayChildren: 0.2,
+        ease: [0.17, 0.67, 0.83, 0.67],
+        delayChildren: 0.1,
         staggerChildren: 0.1,
       },
     },
