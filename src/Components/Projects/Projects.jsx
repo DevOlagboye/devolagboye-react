@@ -13,15 +13,15 @@ const Projects = () => {
       opacity: 1,
       transition: {
         type: "tween",
-        delayChildren: 0.2,
-        staggerChildren: 0.2,
-        duration: 2,
+        delayChildren: 0.1,
+        staggerChildren: 0.1,
+        duration: 1,
       },
     },
   };
   const item = {
     hidden: { opacity: 0 },
-    show: { opacity: 1, y: -4 },
+    show: { opacity: 1, y: -10 },
   };
   return (
     <motion.div
@@ -71,7 +71,7 @@ const Projects = () => {
           </a>
         </motion.div>
       </div>
-      <div className="project-details">
+      <motion.div variants={item} className="project-details">
         <div className="year">
           <p>2022</p>
         </div>
@@ -103,8 +103,8 @@ const Projects = () => {
             />
           </a>
         </div>
-      </div>
-      <div className="project-details">
+      </motion.div>
+      <motion.div variants={item} className="project-details">
         <div className="year">
           <p>2022</p>
         </div>
@@ -136,7 +136,7 @@ const Projects = () => {
             />
           </a>
         </div>
-      </div>
+      </motion.div>
     </motion.div>
   );
 };
