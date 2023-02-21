@@ -9,6 +9,22 @@ import devolagboyeFavIcon from "../../assets/images/profile-pic.JPG";
 import devOlagboyeInBlack from "../../assets/images/devolagboye-in-black.jpg";
 
 const About = () => {
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        type: "tween",
+        delayChildren: 0.1,
+        staggerChildren: 0.1,
+        duration: 1,
+      },
+    },
+  };
+  const item = {
+    hidden: { opacity: 0 },
+    show: { opacity: 1 },
+  };
   return (
     <div className="about-container">
       <div className="about-image-container">
@@ -39,30 +55,35 @@ const About = () => {
           />
           <h5>About me</h5>
         </div>
-        <div className="about-me-details">
-          <h5>
+        <motion.div
+          variants={container}
+          initial="hidden"
+          animate="show"
+          className="about-me-details"
+        >
+          <motion.h5 variants={item}>
             <span>Hi there!</span> I'm Olagboye, a Frontend engineer with
             passion & love for designs and its aesthetics. I am a lover of
             minimal, simple and smooth interfaces.
-          </h5>
-          <h5 className="about-work">
+          </motion.h5>
+          <motion.h5 variants={item} className="about-work">
             I currently work remotely at{" "}
             <a href="https://safemoney.network">SafeMoney</a>, a web3 community
             as a Frontend Engineer. I currently work with some other startups in
             web2 like Copnow - an E-Commerce Startup as well as Pickbox a
             Logistics Startup.
-          </h5>
-          <h5 className="about-work">
+          </motion.h5>
+          <motion.h5 variants={item} className="about-work">
             I am a lover of good designs, as well as stress-free UX, I love
             working with good UI/UX designers, been opportuned to work with some
             in the team as well as from the{" "}
             <a href="https://figma.com/community">Figma Community.</a>
-          </h5>
-          <h5 className="about-work">
+          </motion.h5>
+          <motion.h5 variants={item} className="about-work">
             I love action games, football, as well as traveling and adventures,
             when I am outside of work.
-          </h5>
-        </div>
+          </motion.h5>
+        </motion.div>
       </div>
       <div className="connect-container">
         <div className="connect-title">
