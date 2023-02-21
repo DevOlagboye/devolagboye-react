@@ -13,9 +13,9 @@ const Projects = () => {
       opacity: 1,
       transition: {
         type: "tween",
-        delayChildren: 0.2,
-        staggerChildren: 0.2,
-        duration: 2,
+        delayChildren: 0.1,
+        staggerChildren: 0.1,
+        duration: 1,
       },
     },
   };
