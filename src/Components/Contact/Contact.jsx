@@ -3,6 +3,22 @@ import "./Contact.css";
 import { motion } from "framer-motion";
 
 const Contact = () => {
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        type: "tween",
+        delayChildren: 0.2,
+        staggerChildren: 0.2,
+        duration: 2,
+      },
+    },
+  };
+  const item = {
+    hidden: { opacity: 0 },
+    show: { opacity: 1, y: -10 },
+  };
   return (
     <div className="contact-container">
       <div className="contact-details">
