@@ -27,7 +27,6 @@
 
 .image-link {
     display: block;
-    width: 460px;
 }
 
 .year {
@@ -73,11 +72,14 @@
     .project-image {
         width: 460px;
     }
+    .image-link {
+        width: 460px;
+    }
 }
 
 @media (max-width: 600px) {
     .project-image {
-        width: 100%;
+        width: 97%;
     }
     .project-details {
         flex-wrap: wrap;
