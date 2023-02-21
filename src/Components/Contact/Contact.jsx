@@ -20,10 +20,15 @@ const Contact = () => {
     show: { opacity: 1, y: -10 },
   };
   return (
-    <div className="contact-container">
+    <motion.div
+      variants={container}
+      initial="hidden"
+      animate="show"
+      className="contact-container"
+    >
       <div className="contact-details">
         <div className="contact-text">
-          <h5>
+          <motion.h5 variants={item}>
             Hi there, if you will be looking into connecting with me, we can
             connect on{" "}
             <a
@@ -50,17 +55,17 @@ const Contact = () => {
               Github
             </a>{" "}
             or you shoot a <a href="##">Mail</a>
-          </h5>
+          </motion.h5>
         </div>
         <div className="contact-text">
-          <h5>
+          <motion.h5 variants={item}>
             I recently got interested in Open Source as well as Web3 if you will
             be looking into us collaborating on a project feel free to reach me
             on any of the platform above.
-          </h5>
+          </motion.h5>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
