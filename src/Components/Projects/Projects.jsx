@@ -71,7 +71,7 @@ const Projects = () => {
           </a>
         </motion.div>
       </div>
-      <div className="project-details">
+      <motion.div variants={item} className="project-details">
         <div className="year">
           <p>2022</p>
         </div>
@@ -103,8 +103,8 @@ const Projects = () => {
             />
           </a>
         </div>
-      </div>
-      <div className="project-details">
+      </motion.div>
+      <motion.div variants={item} className="project-details">
         <div className="year">
           <p>2022</p>
         </div>
@@ -136,7 +136,7 @@ const Projects = () => {
             />
           </a>
         </div>
-      </div>
+      </motion.div>
     </motion.div>
   );
 };
