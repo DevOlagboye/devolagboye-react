@@ -2,6 +2,7 @@
     margin-top: 100px;
     color: #fff;
     font-family: "Inter", sans-serif;
+    padding: 20px;
 }
 
 .light-theme .contact-container {
@@ -34,4 +35,16 @@
 
 .light-theme .contact-text>h5>a {
     color: #000;
+}
+
+@media (min-width: 767px) {
+    .contact-text {
+        width: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-text {
+        width: 100%;
+    }
 }
