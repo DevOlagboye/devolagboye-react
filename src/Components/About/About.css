@@ -258,6 +258,9 @@
         margin-top: 10px;
         padding-top: 10px;
     }
+    .connect-links {
+        width: 100%;
+    }
 }
 
 @media (min-width: 767px) {
