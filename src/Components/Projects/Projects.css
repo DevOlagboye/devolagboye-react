@@ -77,11 +77,14 @@
 
 @media (max-width: 600px) {
     .project-image {
-        width: 97%;
+        width: 100%;
     }
     .project-details {
         flex-wrap: wrap;
         gap: 15px;
+    }
+    .image-link {
+        width: 375px;
     }
 }
 
