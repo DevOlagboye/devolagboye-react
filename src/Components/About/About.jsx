@@ -25,26 +25,53 @@ const About = () => {
     hidden: { opacity: 0 },
     show: { opacity: 1 },
   };
+  const imagesContainer = {
+    nonVisible: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        type: "spring",
+        delayChildren: 0.2,
+        staggerChildren: 0.2,
+        duration: 2,
+      },
+    },
+  };
+  const imagesItems = {
+    nonVisible: { opacity: 0 },
+    visible: { opacity: 1 },
+  };
   return (
     <div className="about-container">
-      <div className="about-image-container">
+      <motion.div
+        variants={imagesContainer}
+        initial="nonVisible"
+        animate="visible"
+        className="about-image-container"
+      >
         <div className="about-first-image">
-          <motion.img drag src={firstAboutImage} alt="" />
+          <motion.img
+            variants={imagesItems}
+            drag
+            src={firstAboutImage}
+            alt=""
+          />
         </div>
         <div className="about-second-image">
-          <motion.img drag src={myOutingImage} alt="" />
+          <motion.img variants={imagesItems} drag src={myOutingImage} alt="" />
         </div>
         <div className="about-third-image">
           <motion.img
+            variants={imagesItems}
             drag
             src={devOlagboyeInBlack}
             alt="devOlagboye-In-Black"
           />
         </div>
         <div className="about-fourth-image">
-          <motion.img drag src={myDevFestImage} alt="" />
+          <motion.img variants={imagesItems} drag src={myDevFestImage} alt="" />
         </div>
-      </div>
+      </motion.div>
       <div className="about-me-container">
         <div className="about-me-title">
           <motion.img
