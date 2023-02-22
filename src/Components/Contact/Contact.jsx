@@ -54,7 +54,7 @@ const Contact = () => {
             >
               Github
             </a>{" "}
-            or you shoot a <a href="##">Mail</a>
+            or you shoot a <a href="mailto:me@devolagboye.com">Mail</a>
           </motion.h5>
         </div>
         <div className="contact-text">
