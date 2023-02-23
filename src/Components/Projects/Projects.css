@@ -75,6 +75,9 @@
     .image-link {
         width: 460px;
     }
+}
+
+@media (min-width: 992px) {
     .project-details {
         width: 500px;
     }
