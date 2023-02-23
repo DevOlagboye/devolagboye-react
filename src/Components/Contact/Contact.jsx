@@ -55,6 +55,8 @@ const Contact = () => {
             I recently got interested in Open Source as well as Web3 if you will
             be looking into us collaborating on a project feel free to reach me
             on any of the platform above.
+            <br />
+            <span>Gracias</span>
           </motion.h5>
         </div>
       </div>
