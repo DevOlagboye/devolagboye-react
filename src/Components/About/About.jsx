@@ -103,7 +103,7 @@ const About = () => {
           <motion.h5 variants={item} className="about-work">
             I am a lover of good designs, as well as stress-free UX, I love
             working with good UI/UX designers as well as coordinated and united
-            team for growth, been opportuned to work with some in the team as
+            team for growth, been opportune to work with some in the team as
             well as from the{" "}
             <a href="https://figma.com/community">Figma Community.</a>
           </motion.h5>
