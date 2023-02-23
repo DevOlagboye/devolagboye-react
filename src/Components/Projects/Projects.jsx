@@ -84,9 +84,6 @@ const Projects = () => {
             Aviation landing page is a project based on aviation, booking
             flights etc
           </p>
-          <p className="project-details">
-            I got the inspiration for this from the figma community.
-          </p>
           <a
             href="https://aviation-landingpage.netlify.app/"
             className="case-study-link"
