@@ -30,15 +30,7 @@ const Contact = () => {
         <div className="contact-text">
           <motion.h5 variants={item}>
             Hi there, if you will be looking into connecting with me, we can
-            connect on{" "}
-            <a
-              href="https://github.com/Akingbola1234"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-            </a>{" "}
-            You could follow me on{" "}
+            connect and follow each-other on{" "}
             <a
               href="https://twitter.com/devolagboye"
               target="_blank"
@@ -46,7 +38,8 @@ const Contact = () => {
             >
               Twitter
             </a>{" "}
-            I post about Tech and Frontend we can collaborate on{" "}
+            I post about Tech and Frontend and my lifestyle, we can collaborate
+            on{" "}
             <a
               href="https://github.com/Akingbola1234"
               target="_blank"
@@ -54,7 +47,7 @@ const Contact = () => {
             >
               Github
             </a>{" "}
-            or you shoot a <a href="mailto:me@devolagboye.com">Mail</a>
+            or you can shoot me a <a href="mailto:me@devolagboye.com">Mail</a>
           </motion.h5>
         </div>
         <div className="contact-text">
@@ -62,6 +55,7 @@ const Contact = () => {
             I recently got interested in Open Source as well as Web3 if you will
             be looking into us collaborating on a project feel free to reach me
             on any of the platform above.
+            <br />
           </motion.h5>
         </div>
       </div>

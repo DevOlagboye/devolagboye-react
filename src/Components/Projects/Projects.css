@@ -77,6 +77,12 @@
     }
 }
 
+@media (min-width: 992px) {
+    .project-details {
+        width: 500px;
+    }
+}
+
 @media (max-width: 600px) {
     .project-image {
         width: 97%;
@@ -84,6 +90,7 @@
     .project-details {
         flex-wrap: wrap;
         gap: 15px;
+        width: 100%;
     }
     .image-link {
         width: 375px;

@@ -46,7 +46,10 @@ const Projects = () => {
             web3 and its ecosystem.
           </p>
           <p className="project-details">
-            I got the inspiration for this from the figma community.
+            My love for simple designs and exploring latest designs from Figma
+            Community attracted me to this amazing design and because of my plan
+            on exploring web3, it became an amazing fit for me to design with
+            React.
           </p>
           <a
             href="https://nft-marketplace-landing-page.netlify.app/"
@@ -80,9 +83,6 @@ const Projects = () => {
           <p className="project-details">
             Aviation landing page is a project based on aviation, booking
             flights etc
-          </p>
-          <p className="project-details">
-            I got the inspiration for this from the figma community.
           </p>
           <a
             href="https://aviation-landingpage.netlify.app/"

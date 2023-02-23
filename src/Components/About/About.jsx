@@ -96,14 +96,15 @@ const About = () => {
           <motion.h5 variants={item} className="about-work">
             I currently work remotely at{" "}
             <a href="https://safemoney.network">SafeMoney</a>, a web3 community
-            as a Frontend Engineer. I currently work with some other startups in
-            web2 like Copnow - an E-Commerce Startup as well as Pickbox a
-            Logistics Startup.
+            as a Frontend Engineer and community Manager. I also currently work
+            with some other amazing startups like Copnow - an E-Commerce Startup
+            as well as Pickbox a Logistics Startup.
           </motion.h5>
           <motion.h5 variants={item} className="about-work">
             I am a lover of good designs, as well as stress-free UX, I love
-            working with good UI/UX designers, been opportuned to work with some
-            in the team as well as from the{" "}
+            working with good UI/UX designers as well as coordinated and united
+            team for growth, been opportune to work with some in the team as
+            well as from the{" "}
             <a href="https://figma.com/community">Figma Community.</a>
           </motion.h5>
           <motion.h5 variants={item} className="about-work">
