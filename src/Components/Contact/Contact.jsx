@@ -57,7 +57,6 @@ const Contact = () => {
             on any of the platform above.
             <br />
           </motion.h5>
-          <span>Gracias</span>
         </div>
       </div>
     </motion.div>
