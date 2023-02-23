@@ -97,7 +97,7 @@ const About = () => {
             I currently work remotely at{" "}
             <a href="https://safemoney.network">SafeMoney</a>, a web3 community
             as a Frontend Engineer and community Manager. I also currently work
-            with some other startups in web2 like Copnow - an E-Commerce Startup
+            with some other amazing startups like Copnow - an E-Commerce Startup
             as well as Pickbox a Logistics Startup.
           </motion.h5>
           <motion.h5 variants={item} className="about-work">
