@@ -128,7 +128,7 @@ const About = () => {
           <h5>Side Projects</h5>
         </div>
         <div className="side-projects">
-          <h5>Worked on some other side projects and are live on github</h5>
+          <h5>Worked on some other side projects live on github</h5>
           <div className="list-project-container">
             <a
               href="https://github.com/Einpunk-Protocol/Einpunk-Token-landing-page"
