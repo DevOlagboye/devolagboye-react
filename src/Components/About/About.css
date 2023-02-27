@@ -269,7 +269,7 @@
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 992px) {
     .about-image-container {
         display: none;
     }
