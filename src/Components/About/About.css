@@ -268,3 +268,9 @@
         width: 500px;
     }
 }
+
+@media (max-width: 900px) {
+    .about-image-container {
+        display: none;
+    }
+}
