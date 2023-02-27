@@ -46,6 +46,12 @@
     }
 }
 
+@media (max-width: 900px) {
+    .main-text {
+        margin-top: 25px;
+    }
+}
+
 .main-text h6 {
     color: #fff;
 }

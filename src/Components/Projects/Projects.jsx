@@ -82,7 +82,8 @@ const Projects = () => {
           <h5 className="project-name">Aviation Landing Page</h5>
           <p className="project-details">
             Aviation landing page is a project based on aviation, booking
-            flights etc
+            flights, looking into likely making it move advanced and having web3
+            feature.
           </p>
           <a
             href="https://aviation-landingpage.netlify.app/"
