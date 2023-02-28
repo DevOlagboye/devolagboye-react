@@ -161,6 +161,21 @@ const About = () => {
                 </p>
               </div>
             </a>
+            <a
+              href="https://github.com/Akingbola1234/devolagboye-react"
+              target="blank"
+              className="list-project-link"
+            >
+              <div className="list-project-logo">
+                <img src={devolagboyeFavIcon} alt="Dev Olagboye Profile" />
+              </div>
+              <div className="list-project-details">
+                <h5 className="list-project-title">Dev Olagboye Portfolio</h5>
+                <p className="list-project-description">
+                  My Portfolio here was built with React and AntUI.
+                </p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
