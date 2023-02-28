@@ -162,7 +162,7 @@ const About = () => {
               </div>
             </a>
             <a
-              href="https://github.com/Akingbola1234/devolagboye-react"
+              href="https://github.com/Akingbola1234/cocoin-dapp-homepage"
               target="blank"
               className="list-project-link"
             >
