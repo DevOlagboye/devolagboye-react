@@ -171,7 +171,9 @@ const About = () => {
                 <img src={cocoinFavIcon} alt="Cocoin Fav Icon" />
               </div>
               <div className="list-project-details">
-                <h5 className="list-project-title">Dev Olagboye Portfolio</h5>
+                <h5 className="list-project-title">
+                  Cocoin Community Landing Page
+                </h5>
                 <p className="list-project-description">
                   My Portfolio here was built with React and AntUI.
                 </p>
