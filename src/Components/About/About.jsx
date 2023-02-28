@@ -5,6 +5,7 @@ import firstAboutImage from "../../assets/images/devolagboye.jpg";
 import myOutingImage from "../../assets/images/myouting-devolagboye.JPG";
 import myDevFestImage from "../../assets/images/devolagboye-devfest.JPG";
 import einpunkFavIcon from "../../assets/images/Einpunk Logo white.png";
+import cocoinFavIcon from "../../assets/images/cocoin fav.png";
 import devolagboyeFavIcon from "../../assets/images/profile-pic.JPG";
 import devOlagboyeInBlack from "../../assets/images/devolagboye-in-black.jpg";
 
