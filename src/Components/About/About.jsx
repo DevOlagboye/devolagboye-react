@@ -175,7 +175,7 @@ const About = () => {
                   Cocoin Community Landing Page
                 </h5>
                 <p className="list-project-description">
-                  My Portfolio here was built with React and AntUI.
+                  Cocoin Community Landing Page was build with React and AntUI
                 </p>
               </div>
             </a>
