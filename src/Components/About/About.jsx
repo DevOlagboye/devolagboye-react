@@ -168,7 +168,7 @@ const About = () => {
               className="list-project-link"
             >
               <div className="list-project-logo">
-                <img src={devolagboyeFavIcon} alt="Dev Olagboye Profile" />
+                <img src={cocoinFavIcon} alt="Cocoin Fav Icon" />
               </div>
               <div className="list-project-details">
                 <h5 className="list-project-title">Dev Olagboye Portfolio</h5>
