@@ -1,5 +1,6 @@
 .heropage-container {
     padding: 50px;
+    opacity: 0;
 }
 
 @media (min-width: 768px) {
