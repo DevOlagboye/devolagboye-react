@@ -90,7 +90,7 @@
     .project-details {
         flex-wrap: wrap;
         gap: 15px;
-        width: 98%;
+        width: 100%;
     }
     .image-link {
         width: 375px;
