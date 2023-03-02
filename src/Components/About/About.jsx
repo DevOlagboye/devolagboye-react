@@ -95,11 +95,10 @@ const About = () => {
             minimal, simple and smooth interfaces.
           </motion.h5>
           <motion.h5 variants={item} className="about-work">
-            I currently work remotely at{" "}
-            <a href="https://safemoney.network">SafeMoney</a>, a web3 community
-            as a Frontend Engineer and community Manager. I also currently work
-            with some other amazing startups like Copnow - an E-Commerce Startup
-            as well as Pickbox a Logistics Startup.
+            I currently work remotely at SafeMoney, a web3 community as a
+            Frontend Engineer and community Manager. I also currently work with
+            some other amazing startups like Copnow - an E-Commerce Startup as
+            well as Pickbox a Logistics Startup.
           </motion.h5>
           <motion.h5 variants={item} className="about-work">
             I am a lover of good designs, as well as stress-free UX, I love
