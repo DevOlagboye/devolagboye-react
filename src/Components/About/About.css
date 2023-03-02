@@ -230,6 +230,7 @@
     }
     .about-me-details {
         width: 100%;
+        text-align: justify;
     }
     .connect-container {
         flex-direction: column;
