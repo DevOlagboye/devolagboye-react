@@ -14,6 +14,14 @@
 .project-details {
     display: flex;
     gap: 50px;
+}
+
+.project-details-text {
+    margin-bottom: 30px;
+    color: #a09f99;
+}
+
+.project-name {
     margin-bottom: 30px;
     color: #a09f99;
 }
@@ -65,7 +73,12 @@
     text-decoration: underline;
 }
 
-@media (min-width: 768px) {
+.project-image {
+    margin-bottom: 30px;
+    width: 400px;
+}
+
+@media (min-width: 992px) {
     .projects-container {
         margin-left: 330px;
     }
@@ -75,9 +88,6 @@
     .image-link {
         width: 460px;
     }
-}
-
-@media (min-width: 992px) {
     .project-details {
         width: 500px;
     }

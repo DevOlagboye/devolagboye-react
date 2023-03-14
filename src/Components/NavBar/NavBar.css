@@ -96,7 +96,7 @@
     }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
     .nav-links {
         padding: 7px 15px 7px 15px;
     }
