@@ -80,7 +80,7 @@ const Projects = () => {
         </div>
         <div className="project-main-details">
           <h5 className="project-name">Aviation Landing Page</h5>
-          <p className="project-details">
+          <p className="project-details-text">
             Aviation landing page is a project based on aviation, booking
             flights, looking into likely making it move advanced and having web3
             feature.
@@ -111,11 +111,11 @@ const Projects = () => {
         </div>
         <div className="project-main-details">
           <h5 className="project-name">Cocoin Landing Page</h5>
-          <p className="project-details">
+          <p className="project-details-text">
             Cocoin Landing Page is a community oriented page I designed for a
             token community.
           </p>
-          <p className="project-details">
+          <p className="project-details-text">
             I got the inspiration for this from the figma community.
           </p>
           <a
