@@ -73,6 +73,10 @@
     text-decoration: underline;
 }
 
+.project-image {
+    margin-bottom: 30px;
+}
+
 @media (min-width: 992px) {
     .projects-container {
         margin-left: 330px;
