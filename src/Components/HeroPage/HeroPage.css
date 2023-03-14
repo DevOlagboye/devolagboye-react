@@ -4,7 +4,6 @@
 
 @media (min-width: 768px) {
     .heropage-container {
-        padding: 50px;
         margin-top: 50px;
     }
 }
@@ -46,7 +45,7 @@
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     .main-text {
         margin-top: 25px;
     }
