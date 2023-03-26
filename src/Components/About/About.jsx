@@ -121,6 +121,7 @@ const About = () => {
           <a href="mailto:me@devolagboye.com">Email</a>
           <a href="https://twitter.com/devolagboye">Twitter</a>
           <a href="https://github.com/Akingbola1234">GitHub</a>
+          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/dev-olagboye-seyi-40ba981b7/">Linkedin</a>
         </div>
       </div>
       <div className="side-projects-container">
