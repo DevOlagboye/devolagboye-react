@@ -1,60 +1,61 @@
 .heropage-container {
-    padding: 50px;
+  padding: 50px;
 }
 
 @media (min-width: 768px) {
-    .heropage-container {
-        margin-top: 50px;
-    }
+  .heropage-container {
+    margin-top: 50px;
+  }
 }
 
 @media (max-width: 600px) {
-    .heropage-container {
-        padding: 20px;
-        margin-top: 80px;
-    }
+  .heropage-container {
+    padding: 20px;
+    margin-top: 80px;
+  }
 }
 
 .main-text {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-text h6 {
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .dark-theme .main-text h6 {
-    color: #fff;
+  color: #fff;
 }
 
 .light-theme .main-text h6 {
-    color: #000;
+  color: #000;
 }
 
 .main-text p {
-    margin-top: 30px;
+  margin-top: 30px;
+  font-size: 18px;
 }
 
 @media (min-width: 992px) {
-    .main-text {
-        margin-left: 330px;
-        width: 580px;
-    }
+  .main-text {
+    margin-left: 330px;
+    width: 580px;
+  }
 }
 
 @media (max-width: 800px) {
-    .main-text {
-        margin-top: 25px;
-    }
+  .main-text {
+    margin-top: 25px;
+  }
 }
 
 .main-text h6 {
-    color: #fff;
+  color: #fff;
 }
 
 .main-text p {
-    color: #a09f99;
+  color: #a09f99;
 }

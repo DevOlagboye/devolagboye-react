@@ -29,8 +29,9 @@ const HeroPage = () => {
       <div className="main-text">
         <motion.h6 variants={item}>Hi there, I am Akingbola Olagboye</motion.h6>
         <motion.p variants={item}>
-          A Frontend Engineer, that has passions & love for designs and its
-          aesthetics, recently got interested in exploring open source and web3.
+          A seasoned Frontend Engineer, with a strong sense of design & love for
+          its aesthetics, with over 4 years of experience crafting top-notch
+          solutions for Web2 and Web3 startups.
         </motion.p>
       </div>
     </motion.div>
