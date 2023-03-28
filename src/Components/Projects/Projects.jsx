@@ -81,9 +81,10 @@ const Projects = () => {
         <div className="project-main-details">
           <h5 className="project-name">Aviation Landing Page</h5>
           <p className="project-details-text">
-            Aviation landing page is a project based on aviation, booking
-            flights, looking into likely making it move advanced and having web3
-            feature.
+            FT Plane is a Full Stack Aviation application, it involves booking
+            of flights, schedule of flights, and has a backend that works with
+            Firebase. Schedules and flight books are all stored in the
+            firestore.
           </p>
           <a
             href="https://aviation-landingpage.netlify.app/"
@@ -112,8 +113,8 @@ const Projects = () => {
         <div className="project-main-details">
           <h5 className="project-name">Cocoin Landing Page</h5>
           <p className="project-details-text">
-            Cocoin Landing Page is a community oriented page I designed for a
-            token community.
+            Cocoin Landing Page is a web3 community oriented page I designed for
+            a token community.
           </p>
           <p className="project-details-text">
             I got the inspiration for this from the figma community.
