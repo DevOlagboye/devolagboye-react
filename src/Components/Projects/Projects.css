@@ -42,6 +42,10 @@
   color: #a09f99;
 }
 
+.text {
+  font-size: 18px !important;
+}
+
 .project-name {
   font-size: 16.5px;
   font-family: "Inter", sans-serif;
