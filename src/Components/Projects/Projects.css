@@ -1,5 +1,6 @@
 .projects-container {
   padding: 50px;
+  overflow-x: hidden;
 }
 
 .projects-container .text {
@@ -39,9 +40,23 @@
   animation: slide-in 2s;
 }
 
+.animate-second {
+  transition: ease-in-out 0.2s;
+  animation: slide-out 2s;
+}
+
 @keyframes slide-in {
   from {
     transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slide-out {
+  from {
+    transform: translateX(100%);
   }
   to {
     transform: translateX(0%);
