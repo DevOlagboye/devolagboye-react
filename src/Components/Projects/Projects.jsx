@@ -25,13 +25,14 @@ const Projects = () => {
   };
   let [isOnScreen, setIsOnScreen] = useState(false);
   const ref = useRef(null);
+  const secondProject = useRef(null);
   useEffect(() => {
     const observer = new IntersectionObserver(([entry]) => {
       isOnScreen = entry.isIntersecting;
-      console.log(isOnScreen);
       if (isOnScreen) {
         ref.current.classList.add("animate");
-        console.log(ref.current);
+      } else {
+        ref.current.classList.remove("animate");
       }
     });
     observer.observe(ref.current);
@@ -114,6 +115,7 @@ const Projects = () => {
             href="https://aviation-landingpage.netlify.app/"
           >
             <img
+              ref={secondProject}
               src={aviationLandPage}
               alt="NFT Land page"
               className="project-image"
