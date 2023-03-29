@@ -23,13 +23,17 @@ const Projects = () => {
     hidden: { opacity: 0 },
     show: { opacity: 1, y: -10 },
   };
-  const [isIntersecting, setIsIntersecting] = useState(false);
+  let [isOnScreen, setIsOnScreen] = useState(false);
   const ref = useRef(null);
   useEffect(() => {
     const observer = new IntersectionObserver(([entry]) => {
-      setIsIntersecting(entry.isIntersecting);
+      isOnScreen = entry.isIntersecting;
+      console.log(isOnScreen);
+      if (isOnScreen) {
+        ref.current.classList.add("animate");
+        console.log(ref.current);
+      }
     });
-    console.log(isIntersecting);
     observer.observe(ref.current);
     return () => observer.disconnect();
   }, []);
@@ -39,7 +43,6 @@ const Projects = () => {
       initial="hidden"
       animate="show"
       className="projects-container"
-      ref={ref}
     >
       <div>
         <motion.h6 variants={item} className="text">
@@ -78,6 +81,7 @@ const Projects = () => {
             href="https://nft-marketplace-landing-page.netlify.app/"
           >
             <img
+              ref={ref}
               src={nftLandPage}
               alt="NFT Land page"
               className="project-image"
