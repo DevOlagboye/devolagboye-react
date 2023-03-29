@@ -1,6 +1,6 @@
 import "./App.css";
 import NavBar from "./Components/NavBar/NavBar";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HeroPage from "./Components/HeroPage/HeroPage";
 import Projects from "./Components/Projects/Projects";
@@ -9,6 +9,7 @@ import Contact from "./Components/Contact/Contact";
 
 function App() {
   const [isIntersecting, setIsIntersecting] = useState(false)
+  const intersectingRef = useRef(null)
   return (
     <div>
       <Router>
