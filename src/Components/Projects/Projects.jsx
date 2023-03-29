@@ -4,9 +4,16 @@ import { AiOutlineRise } from "react-icons/ai";
 import nftLandPage from "../../assets/images/Landing Page NFT - Apollo NFT (Community).jpg";
 import aviationLandPage from "../../assets/images/01_Aviation landing page 1.jpg";
 import cocoinLandPage from "../../assets/images/cocoin.jpg";
+import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 
 const Projects = () => {
+  const { ref: myRef, inView: isOnScreen } = useInView();
+  const { ref: secondImage, inView: isSecondImageView } = useInView();
+  
+
+  console.log(isOnScreen);
+
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -23,21 +30,7 @@ const Projects = () => {
     hidden: { opacity: 0 },
     show: { opacity: 1, y: -10 },
   };
-  let [isOnScreen, setIsOnScreen] = useState(false);
-  const ref = useRef(null);
-  const secondProject = useRef(null);
-  useEffect(() => {
-    const observer = new IntersectionObserver(([entry]) => {
-      isOnScreen = entry.isIntersecting;
-      if (isOnScreen) {
-        ref.current.classList.add("animate");
-      } else {
-        ref.current.classList.remove("animate");
-      }
-    });
-    observer.observe(ref.current);
-    return () => observer.disconnect();
-  }, []);
+
   return (
     <motion.div
       variants={container}
@@ -82,10 +75,10 @@ const Projects = () => {
             href="https://nft-marketplace-landing-page.netlify.app/"
           >
             <img
-              ref={ref}
+              ref={myRef}
               src={nftLandPage}
               alt="NFT Land page"
-              className="project-image"
+              className={isOnScreen ? "project-image animate" : "project-image"}
             />
           </a>
         </motion.div>
@@ -115,10 +108,10 @@ const Projects = () => {
             href="https://aviation-landingpage.netlify.app/"
           >
             <img
-              ref={secondProject}
+            ref={secondImage}
               src={aviationLandPage}
               alt="NFT Land page"
-              className="project-image"
+              className={isSecondImageView ? "project-image animate-second": "project-image"}
             />
           </a>
         </div>
