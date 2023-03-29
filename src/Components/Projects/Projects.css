@@ -34,6 +34,10 @@
   height: 250px;
 }
 
+.project-details .project-image .animate {
+  display: none !important;
+}
+
 .image-link {
   display: block;
 }

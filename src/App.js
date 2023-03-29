@@ -7,6 +7,7 @@ import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 
 function App() {
+
   return (
     <div>
       <Router>
@@ -18,7 +19,7 @@ function App() {
             element={
               <div>
                 <HeroPage />
-                <Projects />
+                <Projects/>
               </div>
             }
           />

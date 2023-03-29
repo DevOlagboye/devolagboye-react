@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./Projects.css";
 import { AiOutlineRise } from "react-icons/ai";
 import nftLandPage from "../../assets/images/Landing Page NFT - Apollo NFT (Community).jpg";
@@ -23,6 +23,20 @@ const Projects = () => {
     hidden: { opacity: 0 },
     show: { opacity: 1, y: -10 },
   };
+  let [isOnScreen, setIsOnScreen] = useState(false);
+  const ref = useRef(null);
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => {
+      isOnScreen = entry.isIntersecting;
+      console.log(isOnScreen);
+      if (isOnScreen) {
+        ref.current.classList.add("animate");
+        console.log(ref.current);
+      }
+    });
+    observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, []);
   return (
     <motion.div
       variants={container}
@@ -67,6 +81,7 @@ const Projects = () => {
             href="https://nft-marketplace-landing-page.netlify.app/"
           >
             <img
+              ref={ref}
               src={nftLandPage}
               alt="NFT Land page"
               className="project-image"
