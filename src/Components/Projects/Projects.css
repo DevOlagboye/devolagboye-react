@@ -34,8 +34,18 @@
   height: 250px;
 }
 
-.project-details .project-image .animate {
-  display: none !important;
+.animate {
+  transition: ease-in-out 0.2s;
+  animation: slide-in 2s;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }
 
 .image-link {
