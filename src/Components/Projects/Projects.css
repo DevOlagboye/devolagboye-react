@@ -63,6 +63,20 @@
   }
 }
 
+.animate-third {
+  transition: ease-in-out 0.2s;
+  animation: scaleIn 1s;
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0%);
+  }
+  to {
+    transform: scale(100%);
+  }
+}
+
 .image-link {
   display: block;
 }

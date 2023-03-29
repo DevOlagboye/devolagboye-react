@@ -10,8 +10,7 @@ import { motion } from "framer-motion";
 const Projects = () => {
   const { ref: myRef, inView: isOnScreen } = useInView();
   const { ref: secondImage, inView: isSecondImageView } = useInView();
-  
-
+  const { ref: thirdImage, inView: isThirdImageView } = useInView();
   console.log(isOnScreen);
 
   const container = {
@@ -108,10 +107,14 @@ const Projects = () => {
             href="https://aviation-landingpage.netlify.app/"
           >
             <img
-            ref={secondImage}
+              ref={secondImage}
               src={aviationLandPage}
               alt="NFT Land page"
-              className={isSecondImageView ? "project-image animate-second": "project-image"}
+              className={
+                isSecondImageView
+                  ? "project-image animate-second"
+                  : "project-image"
+              }
             />
           </a>
         </div>
@@ -142,9 +145,14 @@ const Projects = () => {
             href="https://cocoin-dapp-interface.netlify.app/"
           >
             <img
+              ref={thirdImage}
               src={cocoinLandPage}
               alt="NFT Land page"
-              className="project-image"
+              className={
+                isThirdImageView
+                  ? "project-image animate-third"
+                  : "project-image"
+              }
             />
           </a>
         </div>
