@@ -149,11 +149,7 @@ const Projects = () => {
               ref={thirdImage}
               src={cocoinLandPage}
               alt="NFT Land page"
-              className={
-                isThirdImageView
-                  ? "project-image animate-third"
-                  : "project-image"
-              }
+              className="project-image"
             />
           </a>
         </div>
