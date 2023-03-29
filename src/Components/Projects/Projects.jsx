@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./Projects.css";
 import { AiOutlineRise } from "react-icons/ai";
 import nftLandPage from "../../assets/images/Landing Page NFT - Apollo NFT (Community).jpg";
@@ -23,12 +23,23 @@ const Projects = () => {
     hidden: { opacity: 0 },
     show: { opacity: 1, y: -10 },
   };
+  const [isIntersecting, setIsIntersecting] = useState(false);
+  const ref = useRef(null);
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => {
+      setIsIntersecting(entry.isIntersecting);
+    });
+    console.log(isIntersecting);
+    observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, []);
   return (
     <motion.div
       variants={container}
       initial="hidden"
       animate="show"
       className="projects-container"
+      ref={ref}
     >
       <div>
         <motion.h6 variants={item} className="text">
