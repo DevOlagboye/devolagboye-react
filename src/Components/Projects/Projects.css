@@ -65,15 +65,16 @@
 
 .animate-third {
   transition: ease-in-out 0.2s;
-  animation: scaleIn 1s;
+  animation: scaleIn 2s;
 }
 
 @keyframes scaleIn {
   from {
-    transform: scale(0%);
+    transform: scaleX(0%);
   }
   to {
-    transform: scale(100%);
+    transform: scaleX(100%);
+    opacity: 1;
   }
 }
 
