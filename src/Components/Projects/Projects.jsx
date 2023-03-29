@@ -10,8 +10,9 @@ import { motion } from "framer-motion";
 const Projects = () => {
   const { ref: myRef, inView: isOnScreen } = useInView();
   const { ref: secondImage, inView: isSecondImageView } = useInView();
-  const { ref: thirdImage, inView: isThirdImageView } = useInView();
-  console.log(isOnScreen);
+  const { ref: thirdImage, inView: isThirdImageView } = useInView({
+    threshold: 0.1,
+  });
 
   const container = {
     hidden: { opacity: 0 },
