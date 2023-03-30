@@ -224,11 +224,15 @@
 }
 
 .animate-photo-2 {
-  animation: flip-in 1.2s;
+  animation: flip-in 1.4s;
 }
 
 .animate-photo-3 {
-  animation: flip-in 1.4s;
+  animation: flip-in 1.8s;
+}
+
+.animate-photo-4 {
+  animation: flip-in 2.1s;
 }
 
 @keyframes flip-in {

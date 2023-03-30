@@ -90,7 +90,13 @@ const About = () => {
             alt="devOlagboye-In-Black"
           />
         </div>
-        <div className="about-fourth-image">
+        <div
+          className={
+            isPhotoInView
+              ? "about-fourth-image animate-photo-4"
+              : "about-first-image"
+          }
+        >
           <motion.img variants={imagesItems} drag src={myDevFestImage} alt="" />
         </div>
       </motion.div>
