@@ -15,6 +15,20 @@
   }
 }
 
+.animate-text {
+  transition: ease-in-out 0.2s;
+  animation: scale-up 1s;
+}
+
+@keyframes scale-up {
+  from {
+    transform: translateY(100px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
 .main-text {
   display: flex;
   flex-direction: column;
