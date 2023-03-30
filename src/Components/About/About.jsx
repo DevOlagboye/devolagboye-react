@@ -11,6 +11,7 @@ import devOlagboyeInBlack from "../../assets/images/devolagboye-in-black.jpg";
 import { useInView } from "react-intersection-observer";
 
 const About = () => {
+  const { ref: aboutPhoto, inView: isPhotoInView } = useInView();
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -50,6 +51,7 @@ const About = () => {
         initial="nonVisible"
         animate="visible"
         className="about-image-container"
+        ref={aboutPhoto}
       >
         <div className="about-first-image">
           <motion.img
