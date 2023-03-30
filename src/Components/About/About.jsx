@@ -8,6 +8,7 @@ import einpunkFavIcon from "../../assets/images/Einpunk Logo white.png";
 import cocoinFavIcon from "../../assets/images/cocoin fav.png";
 import devolagboyeFavIcon from "../../assets/images/profile-pic.JPG";
 import devOlagboyeInBlack from "../../assets/images/devolagboye-in-black.jpg";
+import { useInView } from "react-intersection-observer";
 
 const About = () => {
   const container = {
