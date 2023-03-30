@@ -53,7 +53,13 @@ const About = () => {
         className="about-image-container"
         ref={aboutPhoto}
       >
-        <div className="about-first-image">
+        <div
+          className={
+            isPhotoInView
+              ? "about-first-image animate-photo"
+              : "about-first-image"
+          }
+        >
           <motion.img
             variants={imagesItems}
             drag
