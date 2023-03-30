@@ -220,26 +220,33 @@
 }
 
 .animate-photo {
+  transition: ease-in-out 3s;
   animation: flip-in 1s;
 }
 
 .animate-photo-2 {
+  transition: ease-in-out 0.2s;
   animation: flip-in 1.4s;
 }
 
 .animate-photo-3 {
+  transition: ease-in-out 0.2s;
   animation: flip-in 1.8s;
 }
 
 .animate-photo-4 {
+  transition: ease-in-out 0.2s;
   animation: flip-in 2.1s;
 }
 
 @keyframes flip-in {
-  from {
+  0% {
     transform: translateY(100%);
   }
-  to {
+  75% {
+    transform: rotate(-10deg);
+  }
+  100% {
     transform: translateY(0%);
   }
 }
