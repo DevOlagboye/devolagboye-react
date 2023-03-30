@@ -57,7 +57,7 @@ const About = () => {
           className={
             isPhotoInView
               ? "about-first-image animate-photo"
-              : "about-first-image"
+              : "about-first-image animate-photo"
           }
         >
           <motion.img
@@ -71,7 +71,7 @@ const About = () => {
           className={
             isPhotoInView
               ? "about-second-image animate-photo-2"
-              : "about-first-image"
+              : "about-first-image animate-photo-2"
           }
         >
           <motion.img variants={imagesItems} drag src={myOutingImage} alt="" />
@@ -80,7 +80,7 @@ const About = () => {
           className={
             isPhotoInView
               ? "about-third-image animate-photo-3"
-              : "about-first-image"
+              : "about-first-image animate-photo-3"
           }
         >
           <motion.img
@@ -94,7 +94,7 @@ const About = () => {
           className={
             isPhotoInView
               ? "about-fourth-image animate-photo-4"
-              : "about-first-image"
+              : "about-first-image animate-photo-4"
           }
         >
           <motion.img variants={imagesItems} drag src={myDevFestImage} alt="" />
