@@ -223,6 +223,10 @@
   animation: flip-in 1s;
 }
 
+.animate-photo-2 {
+  animation: flip-in 1.2s;
+}
+
 @keyframes flip-in {
   from {
     transform: translateY(100%);
