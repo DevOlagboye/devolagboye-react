@@ -243,9 +243,6 @@
   0% {
     transform: translateY(100%);
   }
-  75% {
-    transform: rotate(-10deg);
-  }
   100% {
     transform: translateY(0%);
   }
