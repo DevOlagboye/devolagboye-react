@@ -8,8 +8,10 @@ import einpunkFavIcon from "../../assets/images/Einpunk Logo white.png";
 import cocoinFavIcon from "../../assets/images/cocoin fav.png";
 import devolagboyeFavIcon from "../../assets/images/profile-pic.JPG";
 import devOlagboyeInBlack from "../../assets/images/devolagboye-in-black.jpg";
+import { useInView } from "react-intersection-observer";
 
 const About = () => {
+  const { ref: aboutPhoto, inView: isPhotoInView } = useInView();
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -49,8 +51,15 @@ const About = () => {
         initial="nonVisible"
         animate="visible"
         className="about-image-container"
+        ref={aboutPhoto}
       >
-        <div className="about-first-image">
+        <div
+          className={
+            isPhotoInView
+              ? "about-first-image animate-photo"
+              : "about-first-image animate-photo"
+          }
+        >
           <motion.img
             variants={imagesItems}
             drag
@@ -58,10 +67,22 @@ const About = () => {
             alt=""
           />
         </div>
-        <div className="about-second-image">
+        <div
+          className={
+            isPhotoInView
+              ? "about-second-image animate-photo-2"
+              : "about-first-image animate-photo-2"
+          }
+        >
           <motion.img variants={imagesItems} drag src={myOutingImage} alt="" />
         </div>
-        <div className="about-third-image">
+        <div
+          className={
+            isPhotoInView
+              ? "about-third-image animate-photo-3"
+              : "about-first-image animate-photo-3"
+          }
+        >
           <motion.img
             variants={imagesItems}
             drag
@@ -69,7 +90,13 @@ const About = () => {
             alt="devOlagboye-In-Black"
           />
         </div>
-        <div className="about-fourth-image">
+        <div
+          className={
+            isPhotoInView
+              ? "about-fourth-image animate-photo-4"
+              : "about-first-image animate-photo-4"
+          }
+        >
           <motion.img variants={imagesItems} drag src={myDevFestImage} alt="" />
         </div>
       </motion.div>

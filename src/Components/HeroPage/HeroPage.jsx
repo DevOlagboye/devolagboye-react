@@ -29,7 +29,9 @@ const HeroPage = () => {
       className="heropage-container"
     >
       <div
-        className={isTextInView ? "main-text animate-text" : "main-text"}
+        className={
+          isTextInView ? "main-text animate-text" : "main-text animate-text"
+        }
         ref={mainText}
       >
         <motion.h6 variants={item}>Hi there, I am Akingbola Olagboye</motion.h6>

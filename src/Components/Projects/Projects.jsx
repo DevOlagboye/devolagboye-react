@@ -78,7 +78,9 @@ const Projects = () => {
               ref={myRef}
               src={nftLandPage}
               alt="NFT Land page"
-              className={isOnScreen ? "project-image animate" : "project-image"}
+              className={
+                isOnScreen ? "project-image animate" : "project-image "
+              }
             />
           </a>
         </motion.div>
