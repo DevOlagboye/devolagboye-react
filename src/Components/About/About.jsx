@@ -76,7 +76,13 @@ const About = () => {
         >
           <motion.img variants={imagesItems} drag src={myOutingImage} alt="" />
         </div>
-        <div className="about-third-image">
+        <div
+          className={
+            isPhotoInView
+              ? "about-third-image animate-photo-3"
+              : "about-first-image"
+          }
+        >
           <motion.img
             variants={imagesItems}
             drag
