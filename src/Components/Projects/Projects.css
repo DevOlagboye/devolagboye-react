@@ -42,7 +42,7 @@
 
 .animate-second {
   transition: ease-in-out 0.2s;
-  animation: slide-out 2s;
+  animation: slide-out 2.3s;
 }
 
 @keyframes slide-in {

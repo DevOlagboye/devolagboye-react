@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React from "react";
 import "./Projects.css";
 import { AiOutlineRise } from "react-icons/ai";
 import nftLandPage from "../../assets/images/Landing Page NFT - Apollo NFT (Community).jpg";

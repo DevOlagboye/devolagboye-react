@@ -1,8 +1,10 @@
 import React from "react";
 import "./HeroPage.css";
 import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 const HeroPage = () => {
+  const { ref: mainText, inView: isTextInView } = useInView();
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -26,7 +28,10 @@ const HeroPage = () => {
       animate="show"
       className="heropage-container"
     >
-      <div className="main-text">
+      <div
+        className={isTextInView ? "main-text animate-text" : "main-text"}
+        ref={mainText}
+      >
         <motion.h6 variants={item}>Hi there, I am Akingbola Olagboye</motion.h6>
         <motion.p variants={item}>
           A seasoned Frontend Engineer, with a strong sense of design & love for
