@@ -1,0 +1,51 @@
+.error-container {
+  background: url("../../assets/images/404\ Page.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-text {
+  text-align: center;
+}
+
+.error-text h3 {
+  font-family: "Concert One", sans-serif;
+  font-size: 100px;
+  color: #d7d5e4;
+  text-align: center;
+}
+
+.error-text h4 {
+  color: #9e9bb2;
+  text-align: center;
+  font-family: "Concert One", sans-serif;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.error-link {
+  color: #fff;
+  font-family: "Concert One", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.error-icon {
+  text-align: center;
+  animation: slide-left 1.2s infinite;
+  transition: ease-in-out 2s;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-20px);
+  }
+}
