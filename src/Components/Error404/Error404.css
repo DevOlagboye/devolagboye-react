@@ -9,6 +9,10 @@
   align-items: center;
 }
 
+.error-text {
+  text-align: center;
+}
+
 .error-text h3 {
   font-family: "Concert One", sans-serif;
   font-size: 100px;
@@ -21,4 +25,12 @@
   text-align: center;
   font-family: "Concert One", sans-serif;
   font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.error-link {
+  color: #fff;
+  font-family: "Concert One", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
 }
