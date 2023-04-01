@@ -1,9 +1,10 @@
 import React from "react";
+import "./Error404.css";
 
 const Error404 = () => {
   return (
     <>
-      <h5>Error404</h5>
+      <h1 className="error-text">Error404</h1>
     </>
   );
 };
