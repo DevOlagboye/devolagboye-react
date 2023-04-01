@@ -4,8 +4,21 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .error-text h3 {
   font-family: "Concert One", sans-serif;
+  font-size: 100px;
+  color: #d7d5e4;
+  text-align: center;
+}
+
+.error-text h4 {
+  color: #9e9bb2;
+  text-align: center;
+  font-family: "Concert One", sans-serif;
+  font-size: 40px;
 }
