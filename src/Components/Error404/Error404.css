@@ -5,3 +5,7 @@
   background-position: center;
   background-size: cover;
 }
+
+.error-text h3 {
+  font-family: "Concert One", sans-serif;
+}
