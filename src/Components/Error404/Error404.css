@@ -34,3 +34,18 @@
   text-decoration: none;
   font-size: 20px;
 }
+
+.error-icon {
+  text-align: center;
+  animation: slide-left 1.2s infinite;
+  transition: ease-in-out 2s;
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-20px);
+  }
+}
