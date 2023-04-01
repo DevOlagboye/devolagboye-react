@@ -1,4 +1,7 @@
-.error-text {
-  color: #fff;
-  text-align: center;
+.error-container {
+  background: url("../../assets/images/404\ Page.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
