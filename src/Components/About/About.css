@@ -307,12 +307,12 @@
   }
 }
 .animate{
-  animation: slide-in 1s;
+  animation: slide-in 2s;
 }
 @keyframes slide-in {
   from{
     transform: translateX(-100%);
   }to{
-    transform: translateX(100%);
+    transform: translateX(0%);
   }
 }
