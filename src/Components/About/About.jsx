@@ -119,7 +119,7 @@ const About = () => {
           animate="show"
           className="about-me-details"
         >
-          <h5 variants={item} ref={firstAboutText} className={isFirstTextInView ? "about-work" : "about-work"}>
+          <h5 variants={item} ref={firstAboutText} className={isFirstTextInView ? "about-work animate-first-about-text" : "about-work"}>
             <span>Hi there!</span> I'm Olagboye, a Frontend engineer with
             passion & love for designs and its aesthetics. I am a lover of
             minimal, simple and smooth interfaces.
