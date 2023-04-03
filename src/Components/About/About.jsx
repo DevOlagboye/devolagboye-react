@@ -13,6 +13,7 @@ import { useInView } from "react-intersection-observer";
 const About = () => {
   const { ref: aboutPhoto, inView: isPhotoInView } = useInView();
   const { ref: aboutText, inView: isTextInView} = useInView();
+  const { ref: secondAboutText, inView: isSecondTextInView} = useInView();
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -122,17 +123,17 @@ const About = () => {
             passion & love for designs and its aesthetics. I am a lover of
             minimal, simple and smooth interfaces.
           </motion.h5>
-          <motion.h5 ref={aboutText} variants={item} className={isTextInView ? "about-work animate" : "about-work"}>
+          <h5 ref={aboutText} variants={item} className={isTextInView ? "about-work animate-about-text" : "about-work"}>
             I currently work remotely at SafeMoney, a web3 community as a
             Frontend Engineer and community Manager. I also currently work by
             the side with some other amazing startups like Copnow - an
             E-Commerce Startup as well as Pickbox a Logistics Startup.
-          </motion.h5>
-          <motion.h5 variants={item} className="about-work">
+          </h5>
+          <h5 className={isSecondTextInView? "about-work animate-second-about-text" : "about-work"} ref={secondAboutText}>
             I am seeking new opportunities to advance my career, my ultimate
             goal is to contribute to innovative solutions that align with my
             passions and emback on a new and exciting journey.
-          </motion.h5>
+          </h5>
           <motion.h5 variants={item} className="about-work">
             I am a lover of good designs, as well as stress-free UX, I love
             working with good UI/UX designers as well as coordinated and united

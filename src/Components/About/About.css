@@ -101,6 +101,7 @@
 .about-work {
   margin-top: 20px;
   line-height: 24px;
+  opacity: 0;
 }
 
 .about-work > a {
@@ -306,13 +307,18 @@
     display: none;
   }
 }
-.animate{
-  animation: slide-in 2s;
+.animate-about-text{
+  animation: slide-up-text 2s;
+  opacity: 1;
 }
-@keyframes slide-in {
+@keyframes slide-up-text {
   from{
-    transform: translateX(-100%);
+    transform: translateY(20px);
   }to{
-    transform: translateX(0%);
+    transform: translateY(0px);
   }
+}
+.animate-second-about-text{
+  animation: slide-up-text 3s;
+  opacity: 1;
 }
