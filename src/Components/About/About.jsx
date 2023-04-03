@@ -14,6 +14,7 @@ const About = () => {
   const { ref: aboutPhoto, inView: isPhotoInView } = useInView();
   const { ref: aboutText, inView: isTextInView} = useInView();
   const { ref: secondAboutText, inView: isSecondTextInView} = useInView();
+  const { ref: firstAboutText, inView: isFirstTextInView} = useInView();
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -118,11 +119,11 @@ const About = () => {
           animate="show"
           className="about-me-details"
         >
-          <motion.h5 variants={item}>
+          <h5 variants={item}>
             <span>Hi there!</span> I'm Olagboye, a Frontend engineer with
             passion & love for designs and its aesthetics. I am a lover of
             minimal, simple and smooth interfaces.
-          </motion.h5>
+          </h5>
           <h5 ref={aboutText} variants={item} className={isTextInView ? "about-work animate-about-text" : "about-work"}>
             I currently work remotely at SafeMoney, a web3 community as a
             Frontend Engineer and community Manager. I also currently work by
