@@ -122,7 +122,7 @@ const About = () => {
             passion & love for designs and its aesthetics. I am a lover of
             minimal, simple and smooth interfaces.
           </motion.h5>
-          <motion.h5 ref={aboutText} variants={item} className={isTextInView ? "about-work animate" : "about-work"}>
+          <motion.h5 ref={aboutText} variants={item} className={isTextInView ? "about-work animate-about-text" : "about-work"}>
             I currently work remotely at SafeMoney, a web3 community as a
             Frontend Engineer and community Manager. I also currently work by
             the side with some other amazing startups like Copnow - an

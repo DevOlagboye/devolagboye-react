@@ -306,13 +306,13 @@
     display: none;
   }
 }
-.animate{
-  animation: slide-in 2s;
+.animate-about-text{
+  animation: slide-up-text 2s;
 }
-@keyframes slide-in {
+@keyframes slide-up-text {
   from{
-    transform: translateX(-100%);
+    transform: translateY(100px);
   }to{
-    transform: translateX(0%);
+    transform: translateY(0px);
   }
 }
