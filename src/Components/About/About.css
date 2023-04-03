@@ -101,6 +101,7 @@
 .about-work {
   margin-top: 20px;
   line-height: 24px;
+  opacity: 0;
 }
 
 .about-work > a {
@@ -308,6 +309,7 @@
 }
 .animate-about-text{
   animation: slide-up-text 2s;
+  opacity: 1;
 }
 @keyframes slide-up-text {
   from{
@@ -318,4 +320,5 @@
 }
 .animate-second-about-text{
   animation: slide-up-text 3s;
+  opacity: 1;
 }
