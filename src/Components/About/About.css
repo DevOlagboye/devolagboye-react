@@ -308,7 +308,7 @@
   }
 }
 .animate-about-text{
-  animation: slide-up-text 2s;
+  animation: slide-up-text 3s;
   opacity: 1;
 }
 @keyframes slide-up-text {
@@ -319,6 +319,11 @@
   }
 }
 .animate-second-about-text{
-  animation: slide-up-text 3s;
+  animation: slide-up-text 4s;
+  opacity: 1;
+}
+
+.animate-first-about-text{
+  animation: slide-up-text 2s;
   opacity: 1;
 }
