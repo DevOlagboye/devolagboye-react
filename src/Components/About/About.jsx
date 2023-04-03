@@ -129,7 +129,7 @@ const About = () => {
             the side with some other amazing startups like Copnow - an
             E-Commerce Startup as well as Pickbox a Logistics Startup.
           </motion.h5>
-          <motion.h5 variants={item} className={isSecondTextInView? "about-work animate-about-text" : "about-work"} ref={secondAboutText}>
+          <motion.h5 variants={item} className={isSecondTextInView? "about-work animate-second-about-text" : "about-work"} ref={secondAboutText}>
             I am seeking new opportunities to advance my career, my ultimate
             goal is to contribute to innovative solutions that align with my
             passions and emback on a new and exciting journey.

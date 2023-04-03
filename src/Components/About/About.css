@@ -316,3 +316,6 @@
     transform: translateY(0px);
   }
 }
+.animate-second-about-text{
+  animation: slide-up-text 3s;
+}
