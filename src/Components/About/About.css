@@ -311,7 +311,7 @@
 }
 @keyframes slide-up-text {
   from{
-    transform: translateY(100px);
+    transform: translateY(20px);
   }to{
     transform: translateY(0px);
   }
