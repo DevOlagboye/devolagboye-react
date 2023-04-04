@@ -306,6 +306,10 @@
   .about-image-container {
     display: none;
   }
+  .about-container {
+    margin-top: 10px;
+    padding-top: 10px;
+  }
 }
 .animate-about-text{
   animation: slide-up-text 3s;
