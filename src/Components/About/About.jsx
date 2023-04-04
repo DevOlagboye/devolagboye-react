@@ -16,6 +16,7 @@ const About = () => {
   const { ref: firstAboutText, inView: isFirstTextInView} = useInView();
   const { ref: secondAboutText, inView: isSecondTextInView} = useInView();
   const { ref: thirdAboutText, inView: isThirdTextInView} = useInView();
+  const { ref: lastAboutText, inView: isLastTextInView} = useInView();
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -143,10 +144,10 @@ const About = () => {
             well as from the{" "}
             <a href="https://figma.com/community">Figma Community.</a>
           </h5>
-          <motion.h5 variants={item} className="about-work">
+          <h5 ref={lastAboutText} variants={item} className={isLastTextInView ? "animate-last-about-text about-work": "about-work"}>
             I love action games, football, as well as traveling and adventures,
             when I am outside of work.
-          </motion.h5>
+          </h5>
         </motion.div>
       </div>
       <div className="connect-container">
