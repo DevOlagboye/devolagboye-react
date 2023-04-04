@@ -67,7 +67,9 @@ const Projects = () => {
           >
             Visit Live <AiOutlineRise className="icon" />
           </a>
-
+          <div className="stacks">
+            <h5>Stacks Used: </h5>
+          </div>
           <a
             className="image-link"
             target="_blank"

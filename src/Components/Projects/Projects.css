@@ -35,6 +35,18 @@
   height: 250px;
 }
 
+.stacks {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.stacks > h5 {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
 .animate {
   transition: ease-in-out 0.2s;
   animation: slide-in 2s;
