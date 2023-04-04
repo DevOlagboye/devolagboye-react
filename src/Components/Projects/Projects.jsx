@@ -4,7 +4,6 @@ import { AiOutlineRise } from "react-icons/ai";
 import nftLandPage from "../../assets/images/Landing Page NFT - Apollo NFT (Community).jpg";
 import aviationLandPage from "../../assets/images/01_Aviation landing page 1.jpg";
 import cocoinLandPage from "../../assets/images/cocoin.jpg";
-import reactIcon from "../../assets/images/favicon.ico"
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 
@@ -68,12 +67,6 @@ const Projects = () => {
           >
             Visit Live <AiOutlineRise className="icon" />
           </a>
-          <div className="stacks">
-            <h5>Stacks Used: </h5>
-            <span><img src={reactIcon} alt="" /></span>
-            <span>CSS</span>
-            <span>Firebase</span>
-          </div>
           <a
             className="image-link"
             target="_blank"

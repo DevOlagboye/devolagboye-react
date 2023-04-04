@@ -35,35 +35,6 @@
   height: 250px;
 }
 
-.stacks {
-  margin-bottom: 30px;
-  margin-top: 30px;
-  display: flex;
-  align-items: center;
-}
-
-.stacks > h5 {
-  color: #fff;
-  font-size: 16px;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-}
-
-.stacks > span:nth-child(2) {
-  height: 30px;
-  margin-left: 10px;
-  width: 60px;
-  background: #61dafb;
-  margin-right: 30px;
-  border-radius: 20px;
-}
-
-.stacks > span > img {
-  width: 20px;
-  display: block;
-  margin: 5px auto;
-  border-radius: 10px;
-}
 
 .animate {
   transition: ease-in-out 0.2s;
