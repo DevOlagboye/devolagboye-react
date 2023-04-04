@@ -333,8 +333,11 @@
   opacity: 1;
 }
 
-
 .animate-third-about-text{
   animation: slide-up-text 5s;
+  opacity: 1;
+}
+.animate-last-about-text{
+  animation: slide-up-text 6s;
   opacity: 1;
 }
