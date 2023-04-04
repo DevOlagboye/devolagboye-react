@@ -67,7 +67,6 @@ const Projects = () => {
           >
             Visit Live <AiOutlineRise className="icon" />
           </a>
-
           <a
             className="image-link"
             target="_blank"

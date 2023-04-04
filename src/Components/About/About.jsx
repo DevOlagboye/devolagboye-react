@@ -13,8 +13,10 @@ import { useInView } from "react-intersection-observer";
 const About = () => {
   const { ref: aboutPhoto, inView: isPhotoInView } = useInView();
   const { ref: aboutText, inView: isTextInView} = useInView();
-  const { ref: secondAboutText, inView: isSecondTextInView} = useInView();
   const { ref: firstAboutText, inView: isFirstTextInView} = useInView();
+  const { ref: secondAboutText, inView: isSecondTextInView} = useInView();
+  const { ref: thirdAboutText, inView: isThirdTextInView} = useInView();
+  const { ref: lastAboutText, inView: isLastTextInView} = useInView();
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -135,17 +137,17 @@ const About = () => {
             goal is to contribute to innovative solutions that align with my
             passions and emback on a new and exciting journey.
           </h5>
-          <motion.h5 variants={item} className="about-work">
+          <h5 ref={thirdAboutText} variants={item} className={isThirdTextInView ? "about-work animate-third-about-text" : "about-work"}>
             I am a lover of good designs, as well as stress-free UX, I love
             working with good UI/UX designers as well as coordinated and united
             team for growth, been opportune to work with some in the team as
             well as from the{" "}
             <a href="https://figma.com/community">Figma Community.</a>
-          </motion.h5>
-          <motion.h5 variants={item} className="about-work">
+          </h5>
+          <h5 ref={lastAboutText} variants={item} className={isLastTextInView ? "animate-last-about-text about-work": "about-work"}>
             I love action games, football, as well as traveling and adventures,
             when I am outside of work.
-          </motion.h5>
+          </h5>
         </motion.div>
       </div>
       <div className="connect-container">
