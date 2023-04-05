@@ -1,171 +1,170 @@
 .projects-container {
-  padding: 50px;
-  overflow-x: hidden;
+    padding: 50px;
+    overflow-x: hidden;
 }
 
 .projects-container .text {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  margin-bottom: 20px;
-  color: #fff;
-  margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #fff;
+    margin-top: 10px;
 }
 
 .project-details {
-  display: flex;
-  gap: 50px;
+    display: flex;
+    gap: 50px;
 }
 
 .project-details-text {
-  margin-bottom: 30px;
-  color: #a09f99;
-  font-size: 18px;
+    margin-bottom: 30px;
+    color: #a09f99;
+    font-size: 18px;
 }
 
 .project-name {
-  margin-bottom: 30px;
-  color: #a09f99;
+    margin-bottom: 30px;
+    color: #a09f99;
 }
 
 .project-details .project-image {
-  margin-top: 30px;
-  object-fit: cover;
-  border-radius: 10px;
-  height: 250px;
+    margin-top: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+    height: 250px;
 }
 
-
 .animate {
-  transition: ease-in-out 0.2s;
-  animation: slide-in 2s;
+    transition: ease-in-out 0.2s;
+    animation: slide-in 2s;
 }
 
 .animate-second {
-  transition: ease-in-out 0.2s;
-  animation: slide-out 2.3s;
+    transition: ease-in-out 0.2s;
+    animation: slide-out 2.3s;
 }
 
 @keyframes slide-in {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(0%);
-  }
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
 }
 
 @keyframes slide-out {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(0%);
-  }
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
 }
 
 .animate-third {
-  transition: ease-in-out 0.2s;
-  animation: scaleIn 2s;
+    transition: ease-in-out 0.2s;
+    animation: scaleIn 2s;
 }
 
 @keyframes scaleIn {
-  from {
-    transform: scaleX(0%);
-  }
-  to {
-    transform: scaleX(100%);
-    opacity: 1;
-  }
+    from {
+        transform: scaleX(0%);
+    }
+    to {
+        transform: scaleX(100%);
+        opacity: 1;
+    }
 }
 
 .image-link {
-  display: block;
+    display: block;
 }
 
 .year {
-  color: #a09f99;
+    color: #a09f99;
 }
 
 .text {
-  font-size: 18px !important;
+    font-size: 18px !important;
 }
 
 .project-name {
-  font-size: 16.5px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  margin-bottom: 10px;
+    font-size: 16.5px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .dark-theme .project-name {
-  color: #fff;
+    color: #fff;
 }
 
 .light-theme .project-name {
-  color: #000;
+    color: #000;
 }
 
 .case-study-link {
-  text-underline-offset: 5px;
-  color: #fff;
+    text-underline-offset: 5px;
+    color: #fff;
 }
 
 .dark-theme .case-study-link {
-  color: #fff;
+    color: #fff;
 }
 
 .light-theme .case-study-link {
-  color: #000;
+    color: #000;
 }
 
 .case-study-link .icon {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .project-image {
-  margin-bottom: 30px;
-  width: 400px;
+    margin-bottom: 30px;
+    width: 400px;
 }
 
 @media (min-width: 992px) {
-  .projects-container {
-    margin-left: 330px;
-  }
-  .project-image {
-    width: 460px;
-  }
-  .image-link {
-    width: 460px;
-  }
-  .project-details {
-    width: 580px;
-  }
+    .projects-container {
+        margin-left: 330px;
+    }
+    .project-image {
+        width: 460px;
+    }
+    .image-link {
+        width: 460px;
+    }
+    .project-details {
+        width: 580px;
+    }
 }
 
 @media (max-width: 600px) {
-  .project-image {
-    width: 97%;
-  }
-  .project-details {
-    flex-wrap: wrap;
-    gap: 15px;
-    width: 100%;
-    text-align: justify;
-  }
-  .image-link {
-    width: 99%;
-  }
+    .project-image {
+        width: 97%;
+    }
+    .project-details {
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 100%;
+        text-align: justify;
+    }
+    .image-link {
+        width: 99%;
+    }
 }
 
 @media (min-width: 768px) {
-  .projects-container {
-    padding: 50px;
-  }
+    .projects-container {
+        padding: 50px;
+    }
 }
 
 @media (max-width: 600px) {
-  .projects-container {
-    padding: 20px;
-  }
+    .projects-container {
+        padding: 20px;
+    }
 }
