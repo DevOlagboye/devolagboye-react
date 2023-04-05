@@ -16,7 +16,9 @@
     display: flex;
     gap: 50px;
 }
-
+.project-main-text{
+  opacity: 0;
+}
 .project-details-text {
     margin-bottom: 30px;
     color: #a09f99;
@@ -43,6 +45,20 @@
 .animate-second {
     transition: ease-in-out 0.2s;
     animation: slide-out 2.3s;
+}
+
+.project-text-animate {
+    animation: scale-up-text 2.3s;
+}
+
+@keyframes scale-up-text {
+    from {
+        transform: translateY(100px);
+    }
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
 
 @keyframes slide-in {
