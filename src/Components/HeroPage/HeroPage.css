@@ -16,8 +16,8 @@
 }
 
 .animate-text {
-  transition: ease-in-out 0.2s;
-  animation: scale-up 1s;
+  transition: ease 0.2s;
+  animation: scale-up 2s;
 }
 
 @keyframes scale-up {
