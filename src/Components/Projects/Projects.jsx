@@ -13,6 +13,7 @@ const Projects = () => {
   const { ref: thirdImage, inView: isThirdImageView } = useInView({
     threshold: 0.1,
   });
+  const { ref: projectText, inView: isProjectTextInView } = useInView();
 
   const container = {
     hidden: { opacity: 0 },
@@ -47,7 +48,7 @@ const Projects = () => {
         <div className="year">
           <motion.p variants={item}>2023</motion.p>
         </div>
-        <motion.div variants={item} className="project-main-details">
+        <div ref={projectText} className={isProjectTextInView ? "project-main-details project-text-animate" : "project-main-details"}>
           <h5 className="project-name">Apollo NFT MarketPlace</h5>
           <p className="project-details-text">
             Apollo NFT MarketPlace is a project I designed after my interest in
@@ -82,7 +83,7 @@ const Projects = () => {
               }
             />
           </a>
-        </motion.div>
+        </div>
       </div>
       <motion.div variants={item} className="project-details">
         <div className="year">
