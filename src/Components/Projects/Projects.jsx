@@ -89,7 +89,7 @@ const Projects = () => {
         <div className="year">
           <p>2022</p>
         </div>
-        <div className="project-main-details">
+        <div className= "project-main-details">
           <h5 className="project-name">Aviation Landing Page</h5>
           <p className="project-details-text">
             FT Plane is a Full Stack Aviation application, it involves booking
