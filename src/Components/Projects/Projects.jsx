@@ -14,7 +14,6 @@ const Projects = () => {
     threshold: 0.1,
   });
   const { ref: projectText, inView: isProjectTextInView } = useInView();
-  const { ref: secondProjectText, inView: isSecondProjectTextInView } = useInView();
 
   const container = {
     hidden: { opacity: 0 },
