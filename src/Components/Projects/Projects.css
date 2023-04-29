@@ -15,6 +15,7 @@
 .project-details {
     display: flex;
     gap: 50px;
+    margin-bottom: 30px;
 }
 .project-main-text{
   opacity: 0;

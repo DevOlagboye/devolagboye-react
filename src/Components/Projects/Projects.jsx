@@ -44,6 +44,32 @@ const Projects = () => {
           Selected Projects
         </motion.h6>
       </div>
+
+      <div className="project-details">
+        <div className="year">
+          <motion.p variants={item}>2023</motion.p>
+        </div>
+        <div  className= "project-main-details">
+          <h5 className="project-name">SafeMoneyUP DEX</h5>
+          <p className="project-details-text">
+            SafeMoney recently released a new token on BSC, and required a mini DEX where community can buy and sell the SMU token.
+          </p>
+          <p className="project-details-text">
+            The main purpose of this DAPP is to be able to buy and sell SMU with BNB
+          </p>
+          <a
+            href="https://nft-marketplace-landing-page.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="case-study-link"
+          >
+            Visit Live <AiOutlineRise className="icon" />
+          </a>
+
+        </div>
+      </div>
+
+
       <div className="project-details">
         <div className="year">
           <motion.p variants={item}>2023</motion.p>
@@ -85,6 +111,8 @@ const Projects = () => {
           </a>
         </div>
       </div>
+
+
       <motion.div variants={item} className="project-details">
         <div className="year">
           <p>2022</p>
