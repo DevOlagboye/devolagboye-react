@@ -65,7 +65,7 @@ const Projects = () => {
             price of ETH and a chart
           </p>
           <a
-            href="https://safemoney-up-swap-test.netlify.app/"
+            href="https://math-scan-mini.netlify.app/"
             target="_blank"
             rel="noreferrer"
             className="case-study-link"
