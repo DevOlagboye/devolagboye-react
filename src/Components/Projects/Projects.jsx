@@ -55,7 +55,7 @@ const Projects = () => {
             SafeMoney recently released a new token on BSC, and required a mini DEX where community can buy and sell the SMU token.
           </p>
           <p className="project-details-text">
-            The main purpose of this DAPP is to be able to buy and sell SMU with BNB
+            The main purpose of this DAPP is to be able to buy and sell SMU with BNB and be able to see the price of SMU to BNB.
           </p>
           <a
             href="https://safemoney-up-swap-test.netlify.app/"
