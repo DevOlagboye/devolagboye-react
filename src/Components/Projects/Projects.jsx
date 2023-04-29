@@ -14,6 +14,7 @@ const Projects = () => {
     threshold: 0.1,
   });
   const { ref: projectText, inView: isProjectTextInView } = useInView();
+  const { ref: firstProjectText, inView: isFirstProjectTextInView } = useInView();
 
   const container = {
     hidden: { opacity: 0 },
@@ -44,11 +45,78 @@ const Projects = () => {
           Selected Projects
         </motion.h6>
       </div>
+
       <div className="project-details">
-        <div className="year">
+        <div className="year first">
           <motion.p variants={item}>2023</motion.p>
         </div>
-        <div ref={projectText} className={isProjectTextInView ? "project-main-details project-text-animate" : "project-main-details"}>
+        <div  className=
+              "project-main-details">
+          <h5 className="project-name">Mini Onchain Explorer</h5>
+          <p className="project-details-text">
+            This mini Explorer is a DAPP that fetches on-chain data from the
+            Etherscan APIs personalized to a wallet connected.
+          </p>
+          <p className="project-details-text">
+            The solution this DAPP solves is we know how unnecessarily difficult
+            it is to fetch onchain data, by just connecting your wallet you will
+            be able to fetch transactions made by your wallet and even check the
+            amount of Eth you own in your wallet or any ETH wallet, and the live
+            price of ETH and a chart
+          </p>
+          <a
+            href="https://safemoney-up-swap-test.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="case-study-link"
+          >
+            Visit Live <AiOutlineRise className="icon" />
+          </a>
+        </div>
+      </div>
+
+      <div className="project-details">
+        <div className="year first">
+          <motion.p variants={item}>2023</motion.p>
+        </div>
+        <div ref={firstProjectText}
+        className={
+            isFirstProjectTextInView
+              ? "project-main-details project-text-animate"
+              : "project-main-details"
+          } >
+          <h5 className="project-name">SafeMoneyUP DEX</h5>
+          <p className="project-details-text">
+            SafeMoney recently released a new token on BSC, and required a mini
+            DEX where community can buy and sell the SMU token.
+          </p>
+          <p className="project-details-text">
+            The main purpose of this DAPP is to be able to buy and sell SMU with
+            BNB and be able to see the price of SMU to BNB.
+          </p>
+          <a
+            href="https://safemoney-up-swap-test.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="case-study-link"
+          >
+            Visit Live <AiOutlineRise className="icon" />
+          </a>
+        </div>
+      </div>
+
+      <div variants={item} className="project-details">
+        <div className="year first">
+          <motion.p variants={item}>2023</motion.p>
+        </div>
+        <div
+          ref={projectText}
+          className={
+            isProjectTextInView
+              ? "project-main-details project-text-animate"
+              : "project-main-details"
+          }
+        >
           <h5 className="project-name">Apollo NFT MarketPlace</h5>
           <p className="project-details-text">
             Apollo NFT MarketPlace is a project I designed after my interest in
@@ -89,7 +157,7 @@ const Projects = () => {
         <div className="year">
           <p>2022</p>
         </div>
-        <div className= "project-main-details">
+        <div className="project-main-details">
           <h5 className="project-name">Aviation Landing Page</h5>
           <p className="project-details-text">
             FT Plane is a Full Stack Aviation application, it involves booking
