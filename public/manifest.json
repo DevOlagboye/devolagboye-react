@@ -2,17 +2,17 @@
     "short_name": "React App",
     "name": "Create React App Sample",
     "icons": [{
-            "src": "favicon.ico",
+            "src": "profile-pic.JPG",
             "sizes": "64x64 32x32 24x24 16x16",
             "type": "image/x-icon"
         },
         {
-            "src": "logo192.png",
+            "src": "profile-pic.JPG",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "logo512.png",
+            "src": "profile-pic.JPG",
             "type": "image/png",
             "sizes": "512x512"
         }
