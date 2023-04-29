@@ -52,7 +52,7 @@ const Projects = () => {
         </div>
         <div  className=
               "project-main-details">
-          <h5 className="project-name">Mini Onchain Explorer</h5>
+          <h5 className="project-name">Mini On-chain Explorer</h5>
           <p className="project-details-text">
             This mini Explorer is a DAPP that fetches on-chain data from the
             Etherscan APIs personalized to a wallet connected.
