@@ -59,10 +59,10 @@ const Projects = () => {
           </p>
           <p className="project-details-text">
             The solution this DAPP solves is we know how unnecessarily difficult
-            it is to fetch on-chain data, by just connecting your wallet you will
+            it is to fetch on-chain data, by just connecting your wallet to this DAPP you will
             be able to fetch transactions made by your wallet and even check the
             amount of Eth you own in your wallet or any ETH wallet, and the live
-            price of ETH and a chart
+            price of ETH and a Live chart fetching the current price of ETH
           </p>
           <a
             href="https://math-scan-mini.netlify.app/"
