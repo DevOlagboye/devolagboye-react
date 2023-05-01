@@ -103,7 +103,6 @@ const Projects = () => {
           </a>
         </div>
       </div>
-
       <div variants={item} className="project-details">
         <div className="year first">
           <motion.p variants={item}>2023</motion.p>
