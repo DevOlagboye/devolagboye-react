@@ -56,11 +56,10 @@
 
 @keyframes scale-up-text {
   from {
-    transform: translateY(100px);
+    transform: translateY(10px);
   }
   to {
-    transform: translateY(-0px);
-    opacity: 1;
+    transform: translateY(0px);
   }
 }
 
