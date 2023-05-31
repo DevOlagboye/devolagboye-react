@@ -15,7 +15,7 @@
 .project-details {
   display: flex;
   gap: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .project-main-text {
@@ -42,12 +42,12 @@
 
 .animate {
   transition: ease-in-out 0.2s;
-  animation: slide-in 2s;
+  animation: slide-in 4s;
 }
 
 .animate-second {
   transition: ease-in-out 0.2s;
-  animation: slide-out 2.3s;
+  animation: slide-out 4.5s;
 }
 
 .project-text-animate {
@@ -56,11 +56,10 @@
 
 @keyframes scale-up-text {
   from {
-    transform: translateY(100px);
+    transform: translateY(10px);
   }
   to {
     transform: translateY(0px);
-    opacity: 1;
   }
 }
 

@@ -14,7 +14,8 @@ const Projects = () => {
     threshold: 0.1,
   });
   const { ref: projectText, inView: isProjectTextInView } = useInView();
-  const { ref: firstProjectText, inView: isFirstProjectTextInView } = useInView();
+  const { ref: firstProjectText, inView: isFirstProjectTextInView } =
+    useInView();
 
   const container = {
     hidden: { opacity: 0 },
@@ -50,8 +51,7 @@ const Projects = () => {
         <div className="year first">
           <motion.p variants={item}>2023</motion.p>
         </div>
-        <div  className=
-              "project-main-details">
+        <div className="project-main-details">
           <h5 className="project-name">Mini On-chain Explorer</h5>
           <p className="project-details-text">
             This mini Explorer is a DAPP that fetches on-chain data from the
@@ -59,10 +59,11 @@ const Projects = () => {
           </p>
           <p className="project-details-text">
             The solution this DAPP solves is we know how unnecessarily difficult
-            it is to fetch on-chain data, by just connecting your wallet to this DAPP you will
-            be able to fetch transactions made by your wallet and even check the
-            amount of Eth you own in your wallet or any ETH wallet, and the live
-            price of ETH and a Live chart fetching the current price of ETH
+            it is to fetch on-chain data, by just connecting your wallet to this
+            DAPP you will be able to fetch transactions made by your wallet and
+            even check the amount of Eth you own in your wallet or any ETH
+            wallet, and the live price of ETH and a Live chart fetching the
+            current price of ETH
           </p>
           <a
             href="https://math-scan-mini.netlify.app/"
@@ -78,12 +79,14 @@ const Projects = () => {
         <div className="year first">
           <motion.p variants={item}>2023</motion.p>
         </div>
-        <div ref={firstProjectText}
-        className={
+        <div
+          ref={firstProjectText}
+          className={
             isFirstProjectTextInView
               ? "project-main-details project-text-animate"
               : "project-main-details"
-          } >
+          }
+        >
           <h5 className="project-name">SafeMoneyUP DEX</h5>
           <p className="project-details-text">
             SafeMoney recently released a new token on BSC, and required a mini
