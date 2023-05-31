@@ -42,12 +42,12 @@
 
 .animate {
   transition: ease-in-out 0.2s;
-  animation: slide-in 2s;
+  animation: slide-in 4s;
 }
 
 .animate-second {
   transition: ease-in-out 0.2s;
-  animation: slide-out 2.3s;
+  animation: slide-out 4.5s;
 }
 
 .project-text-animate {
