@@ -13,7 +13,9 @@ const Projects = () => {
   const { ref: thirdImage, inView: isThirdImageView } = useInView({
     threshold: 0.1,
   });
-  const { ref: projectText, inView: isProjectTextInView } = useInView();
+  const { ref: projectText, inView: isProjectTextInView } = useInView(
+    {threshold: 0.3,
+    });
   const { ref: firstProjectText, inView: isFirstProjectTextInView } = useInView();
 
   const container = {
