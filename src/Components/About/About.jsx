@@ -175,7 +175,7 @@ const About = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.linkedin.com/in/dev-olagboye-seyi-40ba981b7/"
+            href="https://www.linkedin.com/in/dev-olagboye-seyi"
           >
             Linkedin
           </a>
