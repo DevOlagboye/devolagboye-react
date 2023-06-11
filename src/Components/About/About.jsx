@@ -12,11 +12,11 @@ import { useInView } from "react-intersection-observer";
 
 const About = () => {
   const { ref: aboutPhoto, inView: isPhotoInView } = useInView();
-  const { ref: aboutText, inView: isTextInView} = useInView();
-  const { ref: firstAboutText, inView: isFirstTextInView} = useInView();
-  const { ref: secondAboutText, inView: isSecondTextInView} = useInView();
-  const { ref: thirdAboutText, inView: isThirdTextInView} = useInView();
-  const { ref: lastAboutText, inView: isLastTextInView} = useInView();
+  const { ref: aboutText, inView: isTextInView } = useInView();
+  const { ref: firstAboutText, inView: isFirstTextInView } = useInView();
+  const { ref: secondAboutText, inView: isSecondTextInView } = useInView();
+  const { ref: thirdAboutText, inView: isThirdTextInView } = useInView();
+  const { ref: lastAboutText, inView: isLastTextInView } = useInView();
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -121,30 +121,67 @@ const About = () => {
           animate="show"
           className="about-me-details"
         >
-          <h5 variants={item} ref={firstAboutText} className={isFirstTextInView ? "about-work animate-first-about-text" : "about-work"}>
+          <h5
+            variants={item}
+            ref={firstAboutText}
+            className={
+              isFirstTextInView
+                ? "about-work animate-first-about-text"
+                : "about-work"
+            }
+          >
             <span>Hi there!</span> I'm Olagboye, a Frontend engineer with
             passion & love for designs and its aesthetics. I am a lover of
             minimal, simple and smooth interfaces.
           </h5>
-          <h5 ref={aboutText} variants={item} className={isTextInView ? "about-work animate-about-text" : "about-work"}>
+          <h5
+            ref={aboutText}
+            variants={item}
+            className={
+              isTextInView ? "about-work animate-about-text" : "about-work"
+            }
+          >
             I currently work remotely at SafeMoney, a web3 community as a
             Frontend Engineer and community Manager. I also currently work by
             the side with some other amazing startups like Copnow - an
             E-Commerce Startup as well as Pickbox a Logistics Startup.
           </h5>
-          <h5 className={isSecondTextInView? "about-work animate-second-about-text" : "about-work"} ref={secondAboutText}>
+          <h5
+            className={
+              isSecondTextInView
+                ? "about-work animate-second-about-text"
+                : "about-work"
+            }
+            ref={secondAboutText}
+          >
             I am seeking new opportunities to advance my career, my ultimate
             goal is to contribute to innovative solutions that align with my
             passions and emback on a new and exciting journey.
           </h5>
-          <h5 ref={thirdAboutText} variants={item} className={isThirdTextInView ? "about-work animate-third-about-text" : "about-work"}>
+          <h5
+            ref={thirdAboutText}
+            variants={item}
+            className={
+              isThirdTextInView
+                ? "about-work animate-third-about-text"
+                : "about-work"
+            }
+          >
             I am a lover of good designs, as well as stress-free UX, I love
             working with good UI/UX designers as well as coordinated and united
             team for growth, been opportune to work with some in the team as
             well as from the{" "}
             <a href="https://figma.com/community">Figma Community.</a>
           </h5>
-          <h5 ref={lastAboutText} variants={item} className={isLastTextInView ? "animate-last-about-text about-work": "about-work"}>
+          <h5
+            ref={lastAboutText}
+            variants={item}
+            className={
+              isLastTextInView
+                ? "animate-last-about-text about-work"
+                : "about-work"
+            }
+          >
             I love action games, football, as well as traveling and adventures,
             when I am outside of work.
           </h5>
@@ -175,7 +212,7 @@ const About = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.linkedin.com/in/dev-olagboye-seyi"
+            href="https://www.linkedin.com/in/olagboye-seyi"
           >
             Linkedin
           </a>
