@@ -108,6 +108,10 @@
   font-size: 18px !important;
 }
 
+.light-theme .text {
+  color: #000 !important;
+}
+
 .project-name {
   font-size: 16.5px;
   font-family: "Inter", sans-serif;
@@ -116,6 +120,14 @@
 }
 
 .dark-theme .project-name {
+  color: #fff;
+}
+
+.dark-theme .text {
+  color: #fff;
+}
+
+.light-theme .text {
   color: #fff;
 }
 
