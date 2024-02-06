@@ -192,7 +192,11 @@ const About = () => {
           <h5>Connect</h5>
         </div>
         <div className="connect-links">
-          <a target="_blank" rel="noreferrer" href="mailto:me@devolagboye.com">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="mailto:akingbolaola@gmail.com"
+          >
             Email
           </a>
           <a
