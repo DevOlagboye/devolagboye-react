@@ -147,7 +147,10 @@
 
 @media (min-width: 992px) {
   .projects-container {
-    margin-left: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .project-image {
     width: 460px;

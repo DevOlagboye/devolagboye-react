@@ -55,8 +55,13 @@
 
 @media (min-width: 992px) {
   .main-text {
-    margin-left: 330px;
     width: 580px;
+  }
+  .heropage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
 
