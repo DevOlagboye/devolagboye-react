@@ -152,6 +152,9 @@
     justify-content: center;
     align-items: center;
   }
+  .projects-container .text {
+    margin-left: -290px;
+  }
   .project-image {
     width: 460px;
   }
