@@ -118,19 +118,18 @@ const Projects = () => {
               : "project-main-details"
           }
         >
-          <h5 className="project-name">Apollo NFT MarketPlace</h5>
+          <h5 className="project-name">FantomWorld NFT Marketplace</h5>
           <p className="project-details-text">
-            Apollo NFT MarketPlace is a project I designed after my interest in
-            web3 and its ecosystem.
+            FantomWorld is a project I and a friend developed for Fantom
+            Hackathon Q2 2023.
           </p>
           <p className="project-details-text">
-            My love for simple designs and exploring latest designs from Figma
-            Community attracted me to this amazing design and because of my plan
-            on exploring web3, it became an amazing fit for me to design with
-            React.
+            FantomWorld inspiration came from the idea of having a real estate
+            metaverse on the Fantom blockchain, where people can buy, sell and
+            rent homes on the Metaverse.
           </p>
           <a
-            href="https://nft-marketplace-landing-page.netlify.app/"
+            href="https://fantom-world.vercel.app/"
             target="_blank"
             rel="noreferrer"
             className="case-study-link"
