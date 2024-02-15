@@ -141,10 +141,16 @@ const About = () => {
               isTextInView ? "about-work animate-about-text" : "about-work"
             }
           >
-            I currently work remotely at SafeMoney, a web3 community as a
-            Frontend Engineer and community Manager. I also currently work by
-            the side with some other amazing startups like Copnow - an
-            E-Commerce Startup as well as Pickbox a Logistics Startup.
+            I currently work remotely at{" "}
+            <a
+              href="https://www.sportrex.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Sportrex
+            </a>{" "}
+            , an all-in-one decentralised GameFi, Play-to-Earn platform built on
+            Multichain networks with Metaverse experience.
           </h5>
           <h5
             className={
