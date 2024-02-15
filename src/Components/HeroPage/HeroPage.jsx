@@ -34,11 +34,14 @@ const HeroPage = () => {
         }
         ref={mainText}
       >
-        <motion.h6 variants={item}>Hi there, I am Akingbola Olagboye</motion.h6>
+        <motion.h6 variants={item}>Hi there, I am Olagboye Seyi </motion.h6>
         <motion.p variants={item}>
-          A seasoned Frontend Engineer, with a strong sense of design & love for
-          its aesthetics, with over 4 years of experience crafting top-notch
-          solutions for Web2 and Web3 startups.
+          A seasoned Frontend Engineer with over four years of experience
+          specializing in crafting minimalist and user-friendly interfaces.
+          <br /> <br />
+          Throughout my career, I have demonstrated proficiency in developing
+          stress-free user experiences that prioritize functionality and
+          elegance for both Web2 and Web3 Innovations.
         </motion.p>
       </div>
     </motion.div>
